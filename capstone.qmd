@@ -950,4 +950,4 @@ Suicide/euthanasia required a mid-series term switch: initial validation using "
 
 All code, data-processing scripts, prompt templates, and materials required to reproduce the results reported in this thesis are available at:
 
-> **GitHub repository:** *[INSERT LINK ONCE YOUR LOCAL FOLDER IS PUSHED TO A GITHUB REPO]*
+**GitHub Repository:** https://github.com/LSE-63919-2526/capstone/tree/main
