@@ -1,0 +1,4900 @@
+=== claude | 1977 | abany | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abany | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abany | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abany | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abany | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abdefect | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abdefect | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abdefect | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abdefect | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abdefect | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abhlth | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abhlth | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abhlth | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abhlth | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abhlth | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abnomore | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abnomore | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abnomore | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abnomore | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abnomore | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abpoor | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abpoor | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abpoor | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abpoor | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abpoor | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abrape | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abrape | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abrape | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abrape | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | abrape | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | absingle | Run 1 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | absingle | Run 2 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | absingle | Run 3 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | absingle | Run 4 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1977 | absingle | Run 5 ===
+It is now 1977. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abany | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abany | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abany | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abany | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abany | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abdefect | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abdefect | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abdefect | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abdefect | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abdefect | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abhlth | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abhlth | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abhlth | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abhlth | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abhlth | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abnomore | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abnomore | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abnomore | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abnomore | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abnomore | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abpoor | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abpoor | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abpoor | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abpoor | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abpoor | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abrape | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abrape | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abrape | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abrape | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | abrape | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | absingle | Run 1 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | absingle | Run 2 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | absingle | Run 3 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | absingle | Run 4 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1982 | absingle | Run 5 ===
+It is now 1982. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abany | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abany | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abany | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abany | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abany | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abdefect | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abdefect | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abdefect | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abdefect | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abdefect | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abhlth | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abhlth | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abhlth | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abhlth | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abhlth | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abnomore | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abnomore | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abnomore | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abnomore | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abnomore | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abpoor | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abpoor | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abpoor | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abpoor | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abpoor | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abrape | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abrape | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abrape | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abrape | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | abrape | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | absingle | Run 1 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | absingle | Run 2 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | absingle | Run 3 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | absingle | Run 4 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1987 | absingle | Run 5 ===
+It is now 1987. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abany | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abany | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abany | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abany | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abany | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abdefect | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abdefect | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abdefect | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abdefect | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abdefect | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abhlth | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abhlth | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abhlth | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abhlth | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abhlth | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abnomore | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abnomore | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abnomore | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abnomore | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abnomore | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abpoor | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abpoor | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abpoor | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abpoor | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abpoor | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abrape | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abrape | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abrape | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abrape | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | abrape | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | absingle | Run 1 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | absingle | Run 2 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | absingle | Run 3 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | absingle | Run 4 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1992 | absingle | Run 5 ===
+It is now 1992. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abany | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abany | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abany | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abany | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abany | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abdefect | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abdefect | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abdefect | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abdefect | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abdefect | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abhlth | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abhlth | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abhlth | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abhlth | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abhlth | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abnomore | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abnomore | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abnomore | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abnomore | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abnomore | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abpoor | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abpoor | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abpoor | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abpoor | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abpoor | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abrape | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abrape | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abrape | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abrape | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | abrape | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | absingle | Run 1 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | absingle | Run 2 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | absingle | Run 3 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | absingle | Run 4 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 1997 | absingle | Run 5 ===
+It is now 1997. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abany | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abany | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abany | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abany | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abany | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abdefect | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abdefect | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abdefect | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abdefect | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abdefect | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abhlth | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abhlth | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abhlth | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abhlth | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abhlth | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abnomore | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abnomore | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abnomore | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abnomore | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abnomore | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abpoor | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abpoor | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abpoor | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abpoor | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abpoor | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abrape | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abrape | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abrape | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abrape | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | abrape | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | absingle | Run 1 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | absingle | Run 2 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | absingle | Run 3 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | absingle | Run 4 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2002 | absingle | Run 5 ===
+It is now 2002. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abany | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abany | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abany | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abany | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abany | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abdefect | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abdefect | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abdefect | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abdefect | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abdefect | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abhlth | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abhlth | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abhlth | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abhlth | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abhlth | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abnomore | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abnomore | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abnomore | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abnomore | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abnomore | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abpoor | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abpoor | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abpoor | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abpoor | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abpoor | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abrape | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abrape | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abrape | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abrape | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | abrape | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | absingle | Run 1 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | absingle | Run 2 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | absingle | Run 3 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | absingle | Run 4 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2007 | absingle | Run 5 ===
+It is now 2007. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abany | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abany | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abany | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abany | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abany | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abdefect | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abdefect | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abdefect | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abdefect | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abdefect | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abhlth | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abhlth | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abhlth | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abhlth | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abhlth | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abnomore | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abnomore | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abnomore | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abnomore | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abnomore | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abpoor | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abpoor | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abpoor | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abpoor | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abpoor | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abrape | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abrape | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abrape | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abrape | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | abrape | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | absingle | Run 1 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | absingle | Run 2 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | absingle | Run 3 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | absingle | Run 4 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2012 | absingle | Run 5 ===
+It is now 2012. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abany | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abany | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abany | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abany | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abany | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abdefect | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abdefect | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abdefect | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abdefect | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abdefect | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abhlth | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abhlth | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abhlth | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abhlth | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abhlth | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abnomore | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abnomore | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abnomore | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abnomore | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abnomore | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abpoor | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abpoor | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abpoor | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abpoor | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abpoor | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abrape | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abrape | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abrape | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abrape | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | abrape | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | absingle | Run 1 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | absingle | Run 2 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | absingle | Run 3 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | absingle | Run 4 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2017 | absingle | Run 5 ===
+It is now 2017. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abany | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abany | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abany | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abany | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abany | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abdefect | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abdefect | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abdefect | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abdefect | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abdefect | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if there is a strong chance of serious defect in the baby?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abhlth | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abhlth | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abhlth | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abhlth | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abhlth | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman's own health is seriously endangered by the pregnancy?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abnomore | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abnomore | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abnomore | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abnomore | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abnomore | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is married and does not want any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abpoor | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abpoor | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abpoor | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abpoor | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abpoor | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abrape | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abrape | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abrape | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abrape | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | abrape | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she became pregnant as a result of rape?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | absingle | Run 1 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | absingle | Run 2 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | absingle | Run 3 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | absingle | Run 4 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+
+=== claude | 2022 | absingle | Run 5 ===
+It is now 2022. You are answering survey questions as a typical American adult living in the United States.
+
+Question: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if she is not married and does not want to marry the man?
+
+Options:
+1. Yes
+2. No
+
+Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+YOUR RESPONSE: ___
+----------------------------------------
+

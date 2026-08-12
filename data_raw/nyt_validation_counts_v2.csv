@@ -1,0 +1,17 @@
+issue,year,count_deduplicated
+abortion,1980,280
+abortion,1992,238
+abortion,2004,205
+abortion,2022,320
+gender_roles,1980,146
+gender_roles,1992,180
+gender_roles,2004,141
+gender_roles,2017,276
+police_violence,1980,80
+police_violence,1991,173
+police_violence,2014,129
+police_violence,2020,285
+suicide_permissibility,1980,27
+suicide_permissibility,1995,213
+suicide_permissibility,2005,263
+suicide_permissibility,2020,219

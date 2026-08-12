@@ -1,0 +1,952 @@
+---
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    papersize: a4
+    fontsize: 12pt
+    linestretch: 2
+  docx:
+    toc: false
+    number-sections: true
+bibliography: references.bib
+crossref:
+  fig-title: Figure
+  tbl-title: Table
+execute:
+  echo: false
+  warning: false
+  message: false
+header-includes:
+  - |
+    \usepackage{etoolbox}
+    \usepackage{adjustbox}
+    \usepackage{array}
+    \usepackage[table]{xcolor}
+    \usepackage{float}
+    \usepackage{placeins}
+    \usepackage{threeparttable}
+    \usepackage{hyperref}
+    \floatplacement{table}{H}
+    \usepackage{setspace}
+---
+
+```{r setup}
+#| include: false
+library(knitr)
+library(kableExtra)
+library(dplyr)
+
+PROJECT_DATA_DIR <- "data_processed"
+PROJECT_FIG_DIR  <- "figures"
+
+knitr::opts_chunk$set(out.width = "80%", fig.align = "center")
+
+clean_terms <- function(x) {
+  x |>
+    stringr::str_replace("gss_mode_regimeweb_2021", "GSS mode: web-only (2021)") |>
+    stringr::str_replace("gss_mode_regimemulti.*bridge", "GSS mode: multimode bridge (2022/2024)") |>
+    stringr::str_replace("wording_change_flag", "Wording change flag") |>
+    stringr::str_replace("dist_c", "Distance (centered)") |>
+    stringr::str_replace("sal_c", "Salience (centered)") |>
+    stringr::str_replace("maturation_time", "Maturation time")
+}
+
+show_table <- function(path, note = "Table not yet linked.", digits = 4,
+                       font_size = 8, longtable = FALSE, scale_down = FALSE,
+                       wrap_col = NULL, wrap_width = "2in", footnote = NULL) {
+  full <- file.path(PROJECT_DATA_DIR, path)
+  if (file.exists(full)) {
+    df <- readr::read_csv(full, show_col_types = FALSE) |>
+      mutate(across(where(is.numeric) & !any_of("p.value"), ~round(., digits)))
+    if ("term" %in% names(df)) {
+      df$term <- clean_terms(df$term)
+    }
+    latex_options <- c(
+      "striped",
+      if (longtable) "repeat_header" else NULL,
+      if (scale_down && !longtable) "scale_down" else NULL
+    )
+    tbl <- knitr::kable(
+      df,
+      format = if (knitr::is_latex_output()) "latex" else NULL,
+      booktabs = TRUE,
+      longtable = longtable
+    ) |>
+      kableExtra::kable_styling(
+        latex_options = latex_options,
+        font_size = font_size
+      )
+    if (!is.null(wrap_col)) {
+      tbl <- tbl |>
+        kableExtra::column_spec(wrap_col, width = wrap_width)
+    }
+    if (!is.null(footnote)) {
+      tbl <- tbl |>
+        kableExtra::footnote(
+          general = footnote,
+          general_title = "Note:",
+          threeparttable = TRUE,
+          footnote_as_chunk = FALSE
+        )
+    }
+    tbl
+  } else {
+    knitr::asis_output(
+      paste0(
+        "*[", note, " Expected at `", full,
+        "` — working directory is `", getwd(), "`.]*"
+      )
+    )
+  }
+}
+
+show_figure <- function(path, alt = "Figure not yet linked.") {
+  full <- file.path(PROJECT_FIG_DIR, path)
+  if (file.exists(full)) {
+    knitr::include_graphics(full)
+  } else {
+    knitr::asis_output(paste0("*[", alt, " Expected at `", full,
+                               "` — working directory is `", getwd(), "`.]*"))
+  }
+}
+```
+
+\begin{titlepage}
+\thispagestyle{empty}
+
+\begin{center}
+
+\vspace*{3.5cm}
+
+{\Large\bfseries
+Does Media Salience Moderate Temporal Decay in\\
+LLM-Simulated Historical Public Opinion?
+\par}
+
+\vspace{0.25cm}
+
+{\large
+\textit{A Test Across Four GSS Moral-Issue Batteries, 1972--2024}
+\par}
+
+\vspace{1.5cm}
+
+{\normalsize
+Department of Methodology\\
+London School of Economics and Political Science
+\par}
+
+\vspace{0.25cm}
+
+{\normalsize
+Supervisor: Yuanmo He\\
+Candidate ID: 63919\\
+Word Count: XXXXX\\
+August 13, 2026
+\par}
+
+\end{center}
+
+\end{titlepage}
+
+\clearpage
+
+\section*{Abstract}
+
+\begin{spacing}{1.5}
+
+This capstone investigates whether large language models (LLMs) can accurately simulate historical U.S. public opinion on contested moral issues, and whether media salience moderates this temporal accuracy. Extending Barrie and Cerina’s (2026) work on silicon sampling and belief-system distortion, this study treats historical simulation as a problem of temporal misalignment: the model is asked to produce an opinion appropriate to a period that may be distant from the temporal distribution of its training data. Rather than asking only whether LLMs can replicate present-day opinion distributions, it asks whether accuracy degrades as historical distance from a model’s training cutoff increases, and whether salience affects degradation.
+
+Using data from the General Social Survey (GSS, 1972–2024) across four moral-issue batteries spanning 17 survey items, the study collects simulated responses from 25 large language models (LLMs) across multiple model families via the OpenRouter API. Accuracy is measured as the absolute gap between each model’s point-estimate response and the corresponding GSS marginal, weighted by sample size. A composite salience index, combining New York Times coverage and Google Trends data, tests whether the growth of this gap with temporal distance varies by issue prominence.
+  
+A response-determinism diagnostic first establishes that LLMs behave as deterministic point estimators rather than distributional samplers. A mixed-effects regression then reveals a robust distance-by-salience interaction: accuracy for high-salience issues decays with historical distance, whereas low-salience issues show the opposite pattern. These findings carry implications for the responsible use of LLMs in historical opinion research.
+
+\vspace{0.5cm}
+
+\noindent\textbf{Keywords:} Large language models; synthetic respondents; silicon sampling; temporal misalignment; historical public opinion; media salience; natural language processing.
+
+\end{spacing}
+
+\clearpage
+
+\begingroup
+\begin{spacing}{1.0}
+\tableofcontents
+\end{spacing}
+\endgroup
+
+\clearpage
+
+# Introduction
+
+Large language models (LLMs) are increasingly deployed not just as tools for generating text, but as stand-ins for human survey respondents. Researchers use models to answer public opinion surveys, complete psychometric batteries, and replicate the reasoning of demographic personas, processes now called “silicon sampling” [@argyle2023]. The appeal is clear: a survey that would take weeks to field and pose high financial costs can now be approximated in an afternoon for a few dollars of API credit. But the appeal only holds if the approximation is trustworthy, and the growing body of research produces mixed results on that conclusion.
+
+This capstone concerns one respect in which the trustworthiness of LLMs as synthetic respondents has not been fully explored: time. When a model is asked to simulate the opinion of a potential historical respondent, it is being asked to reach backward from its position in the present (or more precisely, from its training cutoff) to a historical moment it did not participate in. Existing synthetic-respondent research has focused primarily on contemporary or temporally overlapping opinion. Whether models can accurately reconstruct historical population-level opinion as temporal distance increases — and whether that relationship depends on the salience of the issue — remains comparatively unaddressed. This thesis tests that question directly, using the U.S. General Social Survey (GSS) data on moral issues spanning 1972 to 2024 as ground truth. It asks whether the gap between simulated and actual public opinion grows as a function of temporal distance from a model’s training date cutoff, and whether that relationship is altered by the issue’s salience in public discourse at the simulated time. This test rests on a simple premise developed further below: an issue’s salience at a given historical moment should correspond to how densely and vividly it is represented in the text a model was trained on, meaning a model’s simulated opinion may track discourse volume as much as it tracks the actual distribution of belief.
+
+The remainder of this section reviews four bodies of literature that motivate the research design: (1) the promise and documented limitations of LLMs as survey respondents, with particular emphasis on Barrie and Cerina’s [@barriecerina2026] finding that LLMs distort the structure of human belief systems even while matching aggregate means; (2) work on the mechanics of prompting synthetic respondents, including evidence that LLM output is sensitive to prompt language in ways that do not mimic variance within real populations; (3) the political science and public opinion literature on what constitutes a “moral” issue, which motivates the choice of GSS batteries used and the theoretical basis for the salience-moderation hypothesis; and (4) measurement theory, which is used to justify treating “accuracy” as a validity question rather than a simple prediction task. This theory also situates the comparison between LLM and human outputs within a broader pattern of thinking about what survey responses actually measure.
+
+# Literature Review
+
+## LLMs as Survey Respondents
+
+The use of LLMs to simulate survey responses rests on a straightforward basis: because LLMs are trained on enormous amounts of text, they may encode information about the distribution that generated that text [@minaee2025; @jahanparast2026]. They can therefore be induced - via a persona, time period, or demographic profile - to reproduce a particular part of that distribution. Early enthusiasm for this approach has been dampened by recent findings showing that LLMs reproduce some facets of human opinion better than others.
+
+The most direct link and predecessor to this capstone is Barrie and Cerina’s work on synthetic personas, which found that, while LLMs can approximate the aggregate marginal distributions of human political attitudes with reasonable confidence, they do so by constructing belief systems that do not resemble human ones [@barriecerina2026]. Human political belief is understood to be loosely organized and informed by a variety of factors. An individual’s position on one issue is somewhat predictive of their position on another, and most people hold combinations of views that do not clearly sort into one dimension or political party [@zaller1992]. Barrie and Cerina found that LLM-generated personas instead produce artificially coherent belief systems, overconstrained onto a dominant ideological axis [@barriecerina2026]. This alignment makes a synthetic respondent’s position on one issue far more predictable given their beliefs on other issues than would be true for a human respondent. Additionally, synthetic ideology in the data projected disproportionately onto demographic variables, and models were shown to systematically miss the secondary, cross-cutting beliefs that give human belief systems their nuance, even when models are explicitly prompted to represent those groups [@santurkar2023]. This is the central empirical anchor for this capstone: LLMs can perform adequately at the aggregate level (matching a mean or marginal statistic) while failing at the structural or individual level. It is this same distinction - matching a marginal distribution versus actually representing the process that generates opinion - that motivates asking whether LLMs can track how a marginal distribution changes over time.
+
+Other work has raised concerns about whether LLMs can substitute for human respondents. Wang et al. find that LLM responses can diverge from human responses in item-level reliability and construct validity, while Bisbee et al. caution against treating synthetic responses as a drop-in replacement for fielded survey data [@wang2024notyet; @bisbee2024]. These concerns motivate the narrower approach taken here: rather than treating LLMs as substitutes for GSS respondents, this capstone uses the GSS as a benchmark to characterize when and where simulated opinion diverges from observed public opinion. Liu et al. similarly demonstrate a more modest diagnostic use of LLM respondents through psychometric analysis [@liuleveraging2024]. The question, therefore, is not whether LLMs can replace human respondents, but under what conditions their simulated responses approximate historical population-level opinion.
+
+Taken together, this literature establishes a pattern this capstone extends: LLMs are adequate at some functions a survey respondent performs (producing a plausible, roughly calibrated, average answer) and poor at others (representing thought process and the internal structure and variability of real opinion). The open question this capstone pursues is whether that gap remains stable or widens as the simulated period moves further from the model’s own training window.
+
+
+## LLMs, Training Data, and Temporal Misalignment
+
+The temporal dimension of synthetic opinion simulation is closely related to natural language processing (NLP), where researchers have increasingly examined how models behave when the temporal distribution of their training data differs from that of the information they are asked to process. Language models learn representations from corpora collected across time, meaning that the temporal composition of those data shapes their knowledge [@petroni2019]. This creates a potential problem for historical simulation. A model may report well on a historical period without necessarily reproducing the distribution of language or attitudes that characterized that time.
+
+Luu et al. identify this problem as temporal misalignment, showing that models can experience performance degradation when evaluated on data from periods not encompassed by their training data [@luu2022]. Dhingra et al. similarly demonstrate that language models struggle with knowledge that changes over time, particularly when they need to distinguish information that was true during one period from information that became true later [@dhingra2022]. Their findings suggest that temporal knowledge cannot be reduced to a simple distinction between what a model does and does not know: models may possess information from multiple periods without reliably conditioning their responses on the relevant one.
+
+Subsequent work reinforces this problem. Loureiro et al. show that language models adapted to different temporal slices of Twitter benefit from continued temporal adaptation, highlighting the extent to which discourse changes over time [@loureiro2022]. Zhang and Choi address the related problem of outdated information, showing that modeling the duration for which facts remain valid can improve calibration under temporal misalignment [@zhangmitigating2024]. Cheng et al. further complicate the idea of a fixed training cutoff by showing that a model's effective knowledge cutoff can differ from its reported cutoff, partly because web-scale training data contain temporally mixed material [@cheng2024]. Thus, temporal distance from a stated cutoff should be treated as an approximation to a model's temporal position rather than as a precise boundary beyond which no information is available.
+
+This distinction is particularly relevant when models are prompted to simulate historical respondents. Gao et al. find that prompting models to adopt an earlier knowledge cutoff can reduce the retrieval of directly queried post-cutoff information, but is less effective when later information is indirectly or causally related to the information being queried [@gao2025]. Wallat, Nejdl, and Sikdar similarly find that models can recognize conflicts between temporally different facts without reconciling that distinction in their final predictions [@wallat2026]. Together, these findings suggest that specifying a historical date in a prompt does not necessarily remove later information from the model's learned representations.
+
+This literature establishes temporal misalignment as a recognized problem in language modeling, but its implications for synthetic survey respondents remain unclear. Existing studies primarily evaluate factual knowledge, language distributions, or performance on NLP tasks under temporal shift; they do not test whether an LLM can reconstruct the distribution of attitudes reported by a historical population survey. This capstone applies this temporal perspective to synthetic survey respondents, asking whether the accuracy of LLM-simulated opinion declines as the historical period moves further from the model's training window. It further asks whether this relationship varies with issue salience: if highly salient issues generate a denser and more persistent textual record, they may remain more strongly represented in model training data than less salient issues. Temporal decay in simulated opinion may therefore depend not only on how far back a model is asked to reach, but also on how extensively the relevant issue was represented in the information environment from which it learned.
+
+## Prompting, Determinism, and the Variance Problem
+
+A second important corpus concerns not what LLMs incorrectly identify about opinion structure, but how prompting mechanics affect responses. Contemporary LLMs are generally instruction-tuned rather than being direct outputs of pretraining. Ouyang et al. demonstrate that human-feedback-based instruction tuning substantially alters how models respond to user requests [@ouyang2022]. Liu and colleagues’ survey of prompting methods in NLP documents the general sensitivity of LLM output to prompt templates, wording, and framing [@liu2021pretrain]. This sensitivity is a direct concern for silicon sampling. For example, if a model’s “opinion” on a particular issue shifts significantly depending on the wording of the survey question, then the model is not so much reporting a stable underlying opinion as producing a context-dependent answer. Therefore, even differently phrased versions of the same question may not measure the same construct in the model’s “memory,” even when they are designed to be logically equivalent.
+
+### An explanatory pilot study
+
+The concern of prompting is not simply theoretical for this project. Exploratory piloting conducted before full-scale data collection (detailed further in the Methodology section) tested four conditions, asking verbatim/paraphrased questions working with standard/randomly-sampled-persona framing, and found that none of these interventions reliably introduced variance in model responses. In the first wave, Claude returned an identical answer across five repeated runs for the majority of year-by-variable combinations tested, regardless of prompting conditions. Paraphrasing did occasionally shift the direction of a model’s point estimate - flipping a “yes” to a “no” on a few items - which is evidence for the prompt sensitivity concern raised by the broader literature. However, this did not introduce variance around a stable estimate. Gemini, when tested under the same conditions, showed a comparable pattern with a slightly higher (but still very small) rate of in-group variance, alongside a distinct problem of non-compliance on sensitive items.
+
+### Distributions and prompting
+
+The evidence from this pilot study is consistent with a small, emerging literature on LLMs’ tendency toward point-estimation rather than distributional reproduction. Work done by Kitadai examining the feasibility of LLMs as survey respondents in Japan, and work by Zhao and colleagues on the evaluation of virtual survey respondents’ sociodemographic response generation, both address the question of whether model output can be treated as if it were drawn from a population as opposed to a single guess masqueraded as a distributional response [@kitadai2024; @zhao2026]. Work on interview-informed LLMs suggests a possible mitigation - ground the LLM’s persona in richer, interviewer-derived context rather than a bare demographic or temporal descriptor (adopting that approach was judged infeasible for this capstone; see Methodology) [@kaiser2025; @zhangleveraging2026]. The consistent finding in this pilot and wider literature suggests that standard-level prompt interventions alone (paraphrasing, persona instructions) cannot induce meaningful opinion variance in current versions of LLMs. Rather than treating this as a failure of the research design, this capstone follows the work of Kaiser, Kitadai, and Zhao in treating point-estimator behavior as a reportable empirical finding in its own right, and reframes the analytical goal accordingly. Instead of asking whether LLMs can reproduce the distribution of historical American opinion, this capstone asks how accurate their point estimate is relative to the historical marginal, and how that accuracy varies with temporal distance and salience. This is a narrower question, but arguably better suited to study what LLMs do when asked to perform as a survey respondent.
+
+## "Moral" Issues and Their Connection to Temporal Validity
+
+The choice to test this question specifically on moral issues - abortion, assisted suicide/euthanasia, police violence, and gender roles - is strategic. Political science literature on morality politics illustrates a specific, empirically grounded reason to expect these issues to behave differently over time, in contrast to issues lacking strong moral undertones. Morality politics shapes what a finding of temporal (in)validity on these issues would mean.
+
+Ryan illustrates the significance of the effects of moral issues on political behavior: moral conviction has been linked to candidate preference, turnout, interest-group mobilization, and citizens’ tendencies to hold their representatives accountable [@ryan2014]. Ryan’s review also cautions that moral reasoning is not distributed evenly across populations - its effects are strongest at party extremes - and that whether a given issue can be treated as moral is variable across individuals and time, rather than being a fixed property of the issue [@ryan2014]. This last point informs the research design. It means the moral status of the issues examined here is not assumed to be constant across the 1972-2024 period; it is time-varying rather than constant [@mccombs1972; @downs1972]. The salience index is constructed, in part, to capture this variation in how morally-charged issues are treated at a given moment.
+
+Mooney, Schuldt, and Smith’s typological work converge on a set of defining features of moral issues: they generate conflict over basic values rather than costs and benefits, do not lend themselves to compromise, are widely salient, and are technically simple to understand [@mooneyschuldt2008; @smith2002]. Survey-based tests found that respondents could determine their views on a moral issue with little need for outside information, in contrast to non-moral policy questions [@mooneyschuldt2008]. Consistent with this, they found that religious leaders influenced morality-policy positions more strongly than policy experts, the reverse of the pattern for non-moral issues [@mooneyschuldt2008]. Smith’s cluster-analytic design similarly identified a “moral” cluster of issues characterized by low likelihood of position change, strong links to core values, low willingness to compromise, and high issue importance [@smith2002]. Both papers single out abortion as a defining moral issue. It is used often by morality-policy scholars to typify the category, as it consistently generates conflict over values.
+
+This literature has two direct implications for the design of this capstone. First, it justifies treating moral issues as a distinct test case separate from the broader collection of GSS items. If morality-policy status is defined by the resistance to new information and strong anchoring in stable values, these are the issues on which human public opinion should be comparatively slow-moving and values-driven, rather than reactionary to short-term events [@mooneyschuldt2008; @skitka2010]. This provides a clear backdrop against which to test if an LLM’s simulated opinion tracks actual historical attitude, or instead reflects recent training data. Second, and more relevant to the salience-moderation hypothesis, Skitka’s characterization of moral conviction as universal, objective, and independent of external authority suggests that when an issue is highly salient, it should leave a correspondingly dense and emotionally charged trace in the corpora LLMs are trained on [@skitka2010]. If LLM-generated public opinion is more a reflection of the density and vividness of textual discourse rather than the actual distribution of underlying values, one would expect the pattern this thesis tests for: an accuracy gap that is not only a function of how far back in time the model needs to reach, but of how prominently an issue was being discussed at that time.
+
+The choice of four issue batteries - abortion, assisted suicide/euthanasia, police violence, and gender roles - was made to hold morality-policy status roughly constant while allowing salience to vary. As \hyperref[appendix-a]{Appendix A} notes, abortion’s salience trajectory across 1972–2024 is markedly non-monotonic, gender roles shows a comparatively linear increase in discourse volume over the same period, and police violence and assisted suicide occupy intermediate positions with their own distinct spikes (around, respectively, high-profile police violence incidents and the Kevorkian-era assisted dying debates of the 1990s) [@renynewman2021; @kevorkianpapers; @deathwithdignity; @glucksberg1997]. This variation is what makes it possible to separate the effect of salience from the effect of temporal distance - a distinction elaborated further in the Methodology section.
+
+## Measurement Validity and the Limits of Survey Response
+
+Two additional bodies of work provide the basis for treating “accuracy” as a more important concept than a simple numerical gap. Adcock and Collier’s framework for measurement validity - distinguishing an underlying concept, a systematized concept, and operationalization, and a set of scores - is used to be explicit about what is being evaluated when LLM output is compared to a GSS marginal [@adcockcollier2001]. The background concept here is the model’s representation of historical American public opinion. The systematized concept operationalized in this thesis is more narrow: the point estimate a model produces, under a consistent prompting structure, to answer a GSS item as if it were an average American in a given year. The gap between this operationalized score and the actual GSS marginal is the accuracy measure. Adcock and Collier’s framework is helpful because it cautions against treating a good fit between the operationalized score and the background concept as given (2001). In fact, the entire logic of the salience-moderation hypothesis is, in effect, a validity check of the alignment of the operationalization [@adcockcollier2001]. It determines whether the accuracy gap reflects the model’s representation of historical opinion or instead depicts how much relevant discourse is present in a model’s training data for a given issue at a given time.
+
+Achen’s study of mass political attitudes and the survey response is drawn on here for a complementary purpose: to caution against treating human responses as a stable ground truth against which model output can be compared [@achen1975; @converse1964]. Achen argues that a meaningful share of instability in survey responses and political attitudes reflects measurement error rather than actual attitude changes [@achen1975]. This matters for this capstone because the benchmark (the GSS marginal for a given item in a given year) is an estimate with a margin of error, not a true value for the population. This motivates the decision to require a sample size threshold and regard GSS marginals with skepticism (expanded in the Methodology section).
+
+Together, these frameworks justify a defensible epistemic stance. This capstone does not claim that LLM output either does or does not equal the “true” historical public opinion. Instead, it characterizes LLM opinion using a robust accuracy measure - how the GSS gap co-varies with temporal distance and issue salience - and a variance-characterizing design rather than a causal design.
+
+## Research Questions and the Present Study
+
+The literature reviewed above motivates the following primary research question: can large language models acting as synthetic respondents accurately replicate historical U.S. public opinion on moral issues, and does that accuracy vary systematically with the temporal distance between the survey period and the model’s training data? Three secondary questions follow. First, do LLMs more accurately reproduce public attitudes from periods closer to their training cutoff than from earlier decades (examined but not tested by @barriecerina2026)? Second, does the relationship between temporal distance and predictive accuracy vary by issue salience - specifically, do LLMs perform relatively better on issues that were prominent in public discourse during their training window compared to issues that had faded from discourse by that point [@ryan2014; @mooneyschuldt2008; @skitka2010]? Third, does accuracy vary systematically across the selected models in ways that correspond to differences in training recency, or are other model characteristics (size, architecture, fine-tuning approach) stronger predictors of temporal validity?
+
+This capstone addresses these questions across 25 large language models (following in line with funding from the LSE Department of Methodology; see Methodology) and four moral-issue batteries from the GSS, 1972-2024, benchmarked against a salience index constructed from newspaper coverage and search data. Consistent with the pilot findings, the analysis foreshadows LLMs’ behavior as deterministic point estimators. Going forward, this behavior is treated as a substantive empirical finding rather than a methodological limitation requiring correction. The remainder of this thesis is structured as follows: @sec-methods details the research design and methodology, including data sources, prompting, and ethics approval; @sec-results discusses the analysis and results; and @sec-conclusion concludes with a discussion of limitations and opportunities for further research.
+
+# Research Design and Methodology {#sec-methods}
+
+## Overview
+
+This study uses a fixed, deductive, comparative design to test whether large language models (LLMs), acting as synthetic survey respondents, can accurately reproduce historical U.S. public opinion on moral issues, and whether that accuracy is a function of temporal distance from a model’s training data and the salience of the issue at the simulated time period. The design is explicitly non-causal; because training cutoff, training data, model size, and model family are all inherently correlated, the analysis is instead oriented toward characterizing patterns of variation across models and time. The unit of analysis is a model’s response to a given GSS item in a given year. These responses are then aggregated and compared with the actual GSS marginal for that item-year pairing, producing the primary outcome analyzed in this capstone, an accuracy gap.
+
+## Data Sources
+
+### GSS Ground Truth
+
+Human attitude benchmarks are drawn from the GSS cumulative cross-sectional file [@norc2024gss; @norcgssabout] covering waves from 1972–2024. Four moral issue batteries were selected based on their established status in the morality-politics literature (see Literature Review) and their long-term coverage in the GSS: abortion (`abhlth`, `abrape`, `abpoor`, `abdefect`, `abnomore`, `absingle`, `abany`), suicide/euthanasia (`suicide1`, `letdie1`), police violence (`polmurdr`, `polescap`, `polattak`, `polhitok`), and gender roles (`fepol`, `fechld`, `fefam`, `fepresch`). Variables were retained only where the question was fielded in at least 70% of years from 1972-2024, with a minimum effective sample size per wave of 500 valid responses. (Here, a valid response is defined as any substantive (non-missing, non-‘don’t know’) answer to the item in that survey wave; the separate 20% don’t-know threshold described below is applied after this minimum-N screen, to distinguish adequate sample size from response ambiguity.) This guards against difficulties with the split-ballot design used in later GSS waves, where battery items were rotated across subsamples. Waves missing for a given variable were checked to confirm this reflected the item not having been fielded, rather than data loss. Each variable was also checked to ensure that “do not know” or “cannot choose” responses were below 20% to avoid choosing overly ambiguous questions. Where variables exhibited early systematic missingness, this shortened the usable time series but did not otherwise threaten the credibility of the analysis. Demographic covariates (age, education, degree, sex, race, Hispanic origin, census region, religious preference and attendance, party identification, and political views) were retained for descriptive purposes; however, the core analysis aggregates marginals rather than focusing on responses from particular demographics. This is consistent with the discussion below to not condition LLM prompting on demographic personas.
+
+### Salience Index
+
+A combined measure of salience was constructed from two sources. New York Times API newspaper archive article counts were collected by issue and year using standardized search terms \hyperref[appendix-k]{Appendix K}. `total_hits` was used as the primary count to avoid the pagination ceiling that occurs when querying via direct article listing. (This ceiling effect was confirmed to depress correlation with a validation count for abortion specifically, given its consistently high volume of news coverage.) Google Trends data, collected from the `gtrends` package in R, provided a second, independent measure of relative search volume from 2004 onward [@googletrends; @gtrendsr]. This use of search volume as an indicator of public attention is consistent with methodological work validating Google Trends as a measure of aggregate issue salience [@mellon2013]. Google Trends data was retained as a second column rather than averaged into a single combined index to avoid the difficulty of justifying any specific weights between the two sources. A validation check confirmed the two measures tracked each other closely (gender roles: *r* = 0.924; police violence, *r* = 0.983), which gives reasonable confidence that the primary salience variable, the NYT-derived count variable, captures genuine discourse volume. 
+
+Suicide/euthanasia salience requires an extra adjustment. Search-term validation reveals a substantive shift in framing over the 1972-2024 period, with “euthanasia” as the dominant term before the Kevorkian-era right-to-die debates of the 1980s and “assisted suicide” dominant from 1990 forward [@kevorkianpapers; @deathwithdignity; @glucksberg1997]. The salience measure therefore uses “euthanasia” as the primary term from 1972-1989 and “assisted suicide” from 1990-2024. This decision reflects a real-world shift in how the issue was publicly framed, rather than a post-hoc adjustment to improve model fit.
+
+### LLM Responses
+
+Simulated survey responses were collected via the OpenRouter API, which provides an interface to interact with multiple models [@openrouter]. The pool consists of 25 models from major provider families (Anthropic, Google, OpenAI, xAI, Mistral AI, Meta, DeepSeek, Qwen, Cohere, Allen AI, Google’s Gemma line) to allow comparison across families (full roster in \hyperref[appendix-l]{Appendix L}). This selection is adapted from Barrie and Cerina’s list of models, barring Olmo variants, which were dropped after repeated API failures made them unusable for consistent data collection [-@barriecerina2026].
+
+## Prompt Design
+
+Following an initial four-condition pilot (discussed below), all data collection used a single prompt condition called Condition A: verbatim GSS question wording paired with “typical American adult” persona (full templates in \hyperref[appendix-m]{Appendix M}). This was selected after consultation with the project supervisor, who confirmed this condition is the most defensible methodologically and the most directly comparable to the wording in the GSS. The prompt is made of three components: a system instruction establishing the simulation frame (specifies the historical year and instructs the model to respond as a typical American adult of that time, choosing only from the listed responses and not providing justification); the exact GSS question; and the exact GSS response categories, rather than an open-ended prompt. Deliberately, the persona was not specified beyond “typical American adult in [year]” because adding details would constitute intervening in the very discrepancy this thesis measures and remove latitude for model discretion over the survey question. Also, that choice was deemed unnecessary here given the aggregate focus of the research questions. This is a departure from previous approaches, such as Barrie and Cerina, that condition on detailed demographic profiles [@barriecerina2026]. 
+
+Each item was prompted for the specific set of GSS survey years in which it appeared, rather than a fixed set of common years across all items or the entire salience index (1972-2024). This preserves the structure of the GSS fielding (given strategies like split-ballot rotation), which avoids receiving model fabrications in years when the question was not actually fielded. Items using a binary (yes/no) response format and a GSS four-point agreement schedule are reported and analyzed separately, rather than combined into a single issue-level average. Where comparison is necessary, four-point items are re-scaled by dividing by three, converting the raw 1-4 gap into a 0-1 range directly comparable to the binary items.
+
+Three further design choices are important to address. First, mode of survey administration is coded as a three-level factor (face-to-face for pre-2021 waves, web-only for 2021, and multimodal for 2022 and 2024), reflecting a change in GSS data collection methodology because of the COVID-19 pandemic. Second, three of the four police violence follow-up items required adding the phrase “adult male citizen” to preserve grammatical correctness when presented outside the GSS battery sequence. Third, given the split-ballot design, each item-year combination holds a different effective GSS sample size; this is incorporated in the analysis via sample-size weighting rather than treating all years as equally informative.
+
+## The Pilot Study: Testing for Response Variance and Model Non-Response
+
+Before committing to a data-collection condition, an initial four-condition pilot was conducted using Claude and Gemini as test models [@anthropic2026claude; @google2026gemini]. The pilot was run to test a specific concern encountered in the design process: an LLM prompted to simulate a historical survey response might memorize and report a point estimate of the historical marginal rather than referencing the distribution of opinion on that particular issue in that year. This would then be difficult to distinguish from a genuine simulation unless the model could be shown to produce response variance that mimics the sampled population. If five queries to the same model using the same prompt always return an identical answer, this is evidence against the model behaving like a survey instrument sampling from a distribution - a real survey would not return a unanimous response on contested issues such as these.
+
+**Pilot design.** The pilot crossed two binary factors in a 2x2 design tested first on Claude: question wording (verbatim GSS wording versus a paraphrased version to rule out models searching for the exact GSS question) and persona framing (a standard “typical American adult” persona versus a “randomly sampled individual” persona to encourage response variance and that there is “no single correct answer). This produced four conditions: (A) verbatim wording with the standard persona, (B) paraphrased wording with the standard persona, (C) verbatim wording with the random-sampling persona, and (D) paraphrased wording with the random-sampling persona. Each condition was run five times per year–item combination, across 21 year-by-variable groups drawn from the abortion battery. Full prompt text and item wordings for all four conditions are reproduced in \hyperref[appendix-m]{Appendix M} and \hyperref[appendix-j]{Appendix J}.
+
+**Finding 1: None of the interventions fixed the variance problem.** None of the interventions fixed the variance problem: Across all four conditions, Claude returned identical responses in 20 out of 21 year-by-item combinations tested, across five repeated runs. The one group where this pattern did not hold was `abnomore` (abortion because a married woman wants no more children) in the 1982 group, which showed a 40%/60% yes/no split in Groups B and D (paraphrased wording). Condition C is particularly interesting: despite explicit instructions to respond as an individual with genuine opinions rather than “the average American,” every run was unanimous.
+
+**Finding 2: Paraphrasing shifted direction, not variance.** Paraphrasing shifted direction, not variance. The paraphrasing persona variant occasionally shifted the direction of Claude’s point estimates on a small number of items - `abany` in 2022 flipped from a majority “No” to “Yes” and `absingle` in 1982 flipped from “Yes” to “No”. In both cases, this was a shift in the model’s single deterministic answer, not the introduction of variance. This result is directly relevant to the construct-validity concerns raised above [@liu2021pretrain]. If paraphrasing changes the model’s point estimate at all, then paraphrased and verbatim versions of a question are not being processed in the same way internally, even though they are designed to be equivalent. This is treated as evidence that LLMs’ “opinions” are a function of prompt wording and not the underlying concept the wording is intended to study.
+
+**Extending the pilot to Gemini.** These same four conditions were run again using Gemini to check whether this result was specific to Claude, and because Gemini presented a practical problem on initial runs: unprompted refusal or non-numerical responses on a subset of items, requiring repeated prompting to elicit a straight answer. This motivated the design of a refusal-handling protocol. An additional prompt line was tested and adopted when the model's first response was a refusal or non-numeric (full text in \hyperref[appendix-m]{Appendix M}). This was found to convert a subset of non-answers into codeable responses.
+
+**Finding 3: Gemini showed a small amount of variance where Claude showed none, but still mostly collapsed to a single answer.** Depending on the condition, between 4 and 5 of the 21 groups showed within-group variance for Gemini (compared to Claude’s 1/21). The headline finding holds up for both models: prompt-level interventions do not reliably induce opinion distributions.
+
+**Finding 4: Cross-model disagreement concentrates on contested items and earlier years.** Cross-model disagreement concentrates on contested items and earlier years: Claude and Gemini agreed on 76–86% of groups depending on the condition. Disagreements are not random amongst the field abortion items; they are systematically concentrated on the same variables: `abnomore`, `abpoor`, and `absingle`, the socioeconomic and circumstantial items where historical U.S. opinion was most divided. `abnomore` was the most unstable item overall; it is the only item where Claude varied at all and had the highest within-group variance for Gemini. This pattern - where models appear to converge on high-salience moral consensus items but diverge on contested ones - suggests that LLMs may be encoding different implicit priors about American values rather than faithfully simulating historical opinion. Separately, model disagreement was concentrated in the earlier simulated years (1982 and 2002) rather than the later years (2022). This is consistent with the core temporal hypothesis: models may be more reliable at simulating recent opinion (closer to their training data) and less reliable at reaching back further.
+
+**Implications for the full-scale design.** Evidence from the pilot prompted two methodological decisions that shape the full data collection pipeline. First, because the pilot data did not indicate that prompting interventions could reliably induce meaningful distributional variance in these models, as mentioned above, the analytic focus of this capstone was reframed around the accuracy of models’ deterministic point estimates. Second, to systematically handle model non-response, a refusal protocol was built into the OpenRouter API data collection (described below). On the question of which of the four conditions from the pilot to proceed with, Condition A was chosen - verbatim GSS wording and standard persona - as it is the most comparable to the original GSS instrument.
+
+## Handling Model Non-Response
+
+Building on the Gemini refusal behavior that surfaced during the pilot, a standard four-step refusal-handling protocol was built into the data collection pipeline for the OpenRouter API. First, each response is classified as numeric or non-numeric. Second, non-numeric responses trigger one re-prompt, using a validated re-prompt line clarifying that the model is not being asked to take a personal stance, but report a statistical stance about that period in time. Last, a response that remains non-numeric after re-prompting is logged as a refusal. (Refusal rate is retained as a variable, broken down by model and issue, rather than representing this as discardable missing data.)
+
+These decisions reflect two findings from the pilot study. First, refusal is not randomly distributed. Therefore, discarding refusal and treating the remaining responses as a complete data set risks producing a biased sample of behavior. Second, if a model refuses to respond on one issue (for example, abortion) while answering without issue on another (for example, gender roles), then this pattern is also informative about how models handle issue salience and sensitivity. This goes back to the salience-moderation hypothesis and the third research question concerning cross-model differences in usage as a synthetic respondent instrument. Accordingly, refusal rate by model and issue is treated as a secondary outcome.
+
+## Analytical Strategy
+
+The primary analytical outcome studied in this capstone is the accuracy gap. For each response option, this is computed as the absolute difference between the proportion of the model’s five repeated runs and the corresponding GSS marginals for each model-item-year combination. The accuracy gap is regressed on temporal distance from each model’s approximate training cutoff, issue salience at the simulated time period, and their interaction, using a mixed-effects specification with random effects. The reported analysis aggregates at the year level (one observation per issue per year) as the appropriate unit for testing the salience–distance interaction, with model- and item-level heterogeneity addressed separately to avoid conflating variation. Model-level robustness is assessed via leave-one-out sensitivity analysis and cluster-robust standard errors. Spearman rank correlation and a Pearson-based specification confirm that results are not an artifact of a small number of high-leverage years.
+
+## Ethics Approval
+
+The LSE Research Ethics Committee approved this project. Given that the project relies exclusively on secondary, publicly available survey data (the GSS cumulative file) and text generated by large language models, the project posed minimal ethical risk and did not require an extended review. No personally identifiable information or sensitive data was collected at any stage.
+
+# Analysis and Results {#sec-results}
+
+## Analytical Strategy Overview
+
+The analysis proceeds in layers, moving from diagnostic, to inferential, to robustness. First, a response-determinism diagnostic establishes what kind of object LLM-simulated opinion actually represents: a repeatable point estimate or a distributional draw. This shapes how every downstream finding should be interpreted. Second, a temporal-invariance diagnostic asks whether models are sensitive to the prompt year, or if they return a static answer regardless of year. Third, a mixed-effects regression tests the paper’s central moderation hypothesis: as a model is asked to predict opinion on points further and further back from its training end date, does its accuracy decay, and does that depend on topic salience? Fourth, a set of bivariate and robustness checks stress-test the regression from several angles- rank-based correlation, outlier sensitivity, alternate salience measurement, leave-one-model-out refitting, and cluster-robust inference - to establish how well the headline findings can be trusted.
+
+Throughout, four confounders identified in the Methodology section are handled explicitly: item heterogeneity (via item-level random intercepts), the GSS’s administration history, the suicide battery’s 1990s question wording change, and the risk that a model’s apparent “accuracy” in recent years reflects training-data memorization rather than genuine historical inference. The first three are handled inside the primary model specification; the fourth is only partially addressable given the dataset structure, and is treated as a sensitivity check rather than a resolved issue.
+
+## Response Determinism: LLMs as Point Estimators, Not Distributional Samplers
+
+Before determining whether LLM-simulated opinion tracks historical GSS opinion, it is important to establish what a LLM query actually estimates. Silicon sampling approaches assume that repeatedly querying a model under the same conditions approximates draws from a population distribution of opinion [@barriecerina2026]. If that assumption holds, five independent runs of the same model, item, and year should show a spread of answers that disagree in roughly the same proportions as the true population.
+
+However, this is not what the data show. Normalized Shannon entropy scores across the five repeated runs per model-item-year cell are low across the 25-model roster (@tbl-determinism). The three most deterministic models are Claude 4.6 (0.0164, 97.8% zero-entropy cells), GPT-4o-mini (0.0195, 95.7%), and DeepSeek v3.1 (0.0201, 98.0%). Even the three noisiest models - Llama-3.1-8B (mean entropy 0.377, 5.09% zero-entropy), Command R (0.294, 60.2%), and Gemini 2.5 Lite (0.204, 71.2%) - still returned the same answer on more than half of the queries. No model in the roster truly behaves as though it is sampling from an internal population distribution reflective of the actual public; they act as a single, highly consistent respondents.
+
+```{r tbl-determinism}
+#| tbl-cap: "Response determinism, full 25-model ranking"
+show_table("diagnostics_determinism.csv", font_size = 7, longtable = TRUE)
+```
+
+The directional pattern - capability tracking determinism - holds as a loose trend rather than a strict rule (e.g., gpt5 and gpt5_mini have mid-range performance despite being newer than other open-weight models). However, the most capable, most recently released models generally cluster at the low-entropy end, and no capable model in this roster shows meaningfully distributional behavior. This is not simply a product of model parameters like low sampling temperature or deterministic coding. The results suggest that capability improvements come at a cost to a model’s usefulness in survey response, since models that converge more confidently on the “correct” sounding answer necessarily look less like a population of human respondents.
+
+Two caveats are important to recognize here. First, refusal rates (Section 4.6) affect which cells are used in the entropy calculations non-randomly- a model with a high refusal rate loses cells disproportionately on cells it finds difficult to answer - so raw cross-model entropy rankings should not be read as directly comparable. Second, mean entropy and pct-zero-entropy are not redundant. Even if two models have the same number of zero-entropy cells, the remaining cells might be completely uniform or more random (differing mean entropy), so both statistics are reported.
+
+## Temporal Invariance: Do Models Track Change, or Report a Constant?
+
+A related question is whether a model’s answer changes across the GSS field years at all. Rephrased, does asking the model to imagine 1972 versus 2022 generate different simulated opinions, or does the model return one number regardless of year? A model that genuinely models historical change should track known, well-documented shifts. For example, gender role attitudes liberalized substantially between the 1970s and 2010s, and a model that is not simply returning aggregate opinion should reflect that [@cotter2011; @meaghershu2019; @kroskaelman2009].
+
+```{r fig-invariance-heatmap}
+#| fig-cap: "Temporal invariance across all 25 models and 17 items — share of the 1972-2024 span where a model's answer never changes"
+show_figure("fig_c_invariance_heatmap.png")
+```
+
+@fig-invariance-heatmap makes the pattern discussed below visible at a glance: constancy is heavily concentrated in the abortion and police-violence columns (`abrape`, `abdefect`, `abhlth`, `polhitok`, `polattak`), while the gender-role columns (`fepol`, `fechld`, `fefam`, `fepresch`) are almost entirely light — models essentially never freeze on these items. Looking at the rows, capability again tracks rigidity: the top several rows (`gpt5_mini`, `deepseek_v31`, `gemma4_31b`, `llama33_70b`, `claude_4_6`) are mostly dark. Smaller/older models near the bottom (`mistral_small4`, `llama31_8b`, `command_r`) are almost entirely blank, changing their answer nearly every year regardless of item.
+
+Two invariance statistics are reported here, aggregated over different units. 
+
+**By item, pooled across all 25 models (full table, all 17 items, in \hyperref[appendix-c]{Appendix C}):** `abhlth` ("should abortion be legal if the woman’s health is at risk?”) was the most “frozen” item across 96% of the models’ full year-spans, followed by `abdefect` (76%) and `abrape` (76%). At the opposite end, `fepresch` and `fechld` sit at 4% of model-item pairs, and `fefam` at 8%.
+
+By issue, abortion is the most frozen overall (52% of 175 item-model pairs constant), with police violence at 50%. Suicide is considerably less frozen (16% of 50 pairs), and gender roles is least frozen (10% of 100 pairs). These rankings closely track the change of each battery. Because American opinion has not shifted much on abortion health exceptions over the study period, a constant model answer may be tracking the ground truth correctly. Conversely, gender roles show the opposite pattern. Opinions here have moved greatly since the 1970s (secular liberalization), and these are the items that show the most model-level swing [@cotter2011; @meaghershu2019; @kroskaelman2009].
+
+**By model, pooled across all 17 items (full table in \hyperref[appendix-c]{Appendix C}):** This aggregation produces a different model ranking. GPT-4o-mini and Jamba Large are the most invariant models overall (70.6% of the 17 items stay constant across the full span). Mistral Small 4 is the least constant model in the roster - 0% of its items are constant, meaning it changes its answer for nearly every item - followed by Llama-3.1-8B (5.88%).
+
+These rankings answer different questions - “which items does the average model treat as frozen” versus “which models treat the average item as frozen” - and the fact that the two do not line up is very informative. Invariance is not simply a property of similar items that every model identically ignores. In the same way, invariance is also not a property of “rigid” models that ignore every item identically. Both item-level and model-level structure matter in different capacities, which is part of the reasoning for the cross random-effects specification `(1|model) + (1|variable)` used in the primary regression.
+
+Stated clearly, models appear to have an implicit sense of which topics have shifted historically and which have not, but they express that knowledge as a static summary rather than reconstructing the year-by-year shape of the change. For example, a model can answer “has opinion on gender roles moved a lot historically?” (yes) without being able to answer “what did opinion on gender roles look like specifically in 1982?” This distinction is directly relevant to the salience moderation hypothesis in Section 4.4, since it is one candidate mechanism for why decay accelerates for high-salience items.
+
+## The Central Test: Does Salience Moderate Temporal Decay?
+
+### Model specification
+
+The central hypothesis - that media salience moderates the rate at which LLM-GSS accuracy degrades with historical time lag - was tested with a linear fixed-effects model:
+
+$$
+\begin{aligned}
+\text{gap}_{ijk} = {} & \beta_0 + \beta_1 \text{dist\_c}_{k} + \beta_2 \text{sal\_c}_{jk} + \beta_3 (\text{dist\_c}_{k} \times \text{sal\_c}_{jk}) \\
+& + \beta_4 \text{gss\_mode\_regime}_k + \beta_5 \text{wording\_change\_flag}_j + u_i + u_j + \varepsilon_{ijk}
+\end{aligned}
+$$
+It was fit via REML with Satterthwaite-approximated degrees of freedom (`lmerTest`) and weighted by `gss_sample_n_norm` (GSS sample size divided by the mean). `dist_c` (distance from the present time in years) and `sal_c` (the NYT/Google Trends salience index) were both mean-centered before constructing the interaction effect, which makes the two main-effect coefficients interpretable as the effect of one variable at the average value of the other. This reduced mechanical collinearity between the main effects and the product term.
+
+Three of the four confounders presented in the Methodology section are handled directly in this specification. Item heterogeneity is absorbed by the `(1 |  variable)` random intercept. General model-quality differences are absorbed by `(1 | model)`. The GSS’s mode-of-administration history (`gss_mode_regime`) is entered as a three-level factor: face-to-face before 2021, web-only 2021, and multimode bridge for 2022/2024. The suicide/euthanasia battery’s early-1990s wording shift is entered as `wording_change_flag`. The fourth confounder - training data contamination - is not resolved by this specification and is addressed later in Section 4.8.
+
+### Fixed-effect results
+
+```{r tbl-primary}
+#| tbl-cap: "Primary model — fixed effects."
+show_table("regression_primary_summary.csv",
+          scale_down = TRUE,
+          footnote = "Random effects: model-level SD = 0.0282, item-level SD = 0.1454, residual SD = 0.1273 (*N* = 12,009 observations; groups: 25 models, 17 items). Item heterogeneity is roughly five times larger than model heterogeneity — which item you ask about matters more for the size of the gap than which of the 25 models answered it.")
+```
+
+The primary coefficient, the distance-by-salience interaction (`dist_c:sal_c`), is estimated at + 0.0000522 (*p* < $2 \times 10^{-16}$, *t* = 11.80), with a 95% confidence interval that excludes zero (0.0000435, 0.0000609). The raw magnitude appears small because both component variables are measured in their original units (years, salience-index points), so their product compresses.
+
+Both `gss_mode_regime` levels are non-significant; confidence intervals validate this lack of significance. `wording_change_flag` carries the largest magnitude coefficient in the model at -0.1008 (confidence interval excludes zero, detailed more in Section 4.5).
+
+The pooled intercept of 0.303 provides a useful baseline: a “typical” model-item-year observation places the model’s answer about 0.30 (normalized) away from the GSS marginal. In other words, the average LLM is not close to perfect calibration even before any temporal degradation is considered.
+
+```{r fig-coefficient-forest}
+#| fig-cap: "Fixed-effect estimates from the primary model, with 95% confidence intervals"
+show_figure("fig_b_coefficient_forest.png")
+```
+
+@fig-coefficient-forest visualizes these fixed effects. Four of the six non-intercept terms have 95% confidence intervals excluding zero — `dist_c`, `sal_c`, the`dist_c:sal_c` interaction, and `wording_change_flag` — while both `gss_mode_regime` levels contain zero, consistent with the non-significance already reported above. The intercept is omitted from the plot, as its much larger scale (0.303) would compress the remaining coefficients into an unreadable cluster near zero.
+
+### The decay slope
+
+Because the raw interaction coefficient is difficult to interpret on its own, it is more useful to translate it into the model’s implied decay slope: the change in the accuracy gap per additional year of distance. This is evaluated at three different salience levels (@fig-decay-slices; @fig-decay-continuous for the full continuous version):
+
+- At the 10th percentile of salience: −0.00162 per year (accuracy gap narrows slightly moving back in time)
+- At the median salience: −0.00075 per year (essentially no change)
+- At the 90th percentile of salience: +0.00125 per year (gap widens moving backward in time)
+
+```{r fig-decay-slices}
+#| fig-cap: "Implied decay slope at the 10th, 50th, and 90th percentiles of salience"
+show_figure("fig_a_decay_interaction.png")
+```
+
+Cumulated across the full GSS time span, high-salience items end up around 7-8 percentage points worse (normalized-gap) than low-salience items, purely as a function of distance. This is a particularly large gap given that the pooled intercept is only 0.303. For low-salience topics, going backwards in time does not appear to alter the accuracy gap; if anything, it reduces slightly.
+
+```{r fig-decay-continuous}
+#| fig-cap: "Continuous Johnson-Neyman-style plot of the decay slope as a function of salience"
+show_figure("fig_e_johnson_neyman_slope.png")
+```
+
+@fig-decay-continuous visualizes the full continuous version of this relationship. The implied decay slope crosses from negative to positive at a salience value just above the sample mean, with the 95% confidence bands excluding zero away from the crossing and touching it, as expected, right at that point. This Johnson-Neyman-style visualization aims to mirror Barrie and Cerina’s visual register [@barriecerina2026]; rather than reporting three arbitrary slices of salience, it shows the entire function’s relationship of salience to decay direction. This is a stronger version of the claim represented in @fig-decay-slices.
+
+
+### The interaction, explained
+
+Substantively, this regression is not about models being uniformly worse at answering in older years. It is instead about models being worse at older years specifically for the topics on which real public opinion moved the most. Furthermore, salience and opinion movement are correlated for structural, not coincidental, reasons: issues become newsworthy in part because they are contested or shifting. A model that has “memorized” what Americans currently think as a static prior will do somewhat well when projecting that prior backward on a topic that has been stable for fifty years. If, however, it is asked to project that same prior onto a topic where opinion has genuinely moved, it will do progressively worse. This is the pattern the temporal-invariance diagnostic alludes to in Section 4.3. The convergence of these independent diagnostics - one behavioral (do models change their answer across years at all) and one inferential (does the size of the accuracy gap scale with distance conditional on salience) - pointing toward the same underlying mechanism boosts the internal validity of this claim.
+
+@fig-model-fan shows the population-level slope is not a product of averaging together sharply divergent individual-model trajectories. The individual lines are noisy, but visibly fan in the direction predicted by the fitted slope in each panel. The noisiest individual trajectories belong disproportionately to the higher-entropy models identified in Section 4.2.
+
+```{r fig-model-fan}
+#| fig-cap: "Individual model-level decay trajectories by salience tercile"
+#| fig-width: 7.2
+#| fig-height: 4.7
+show_figure("fig_f_model_spaghetti.png")
+```
+
+## The Wording Change Coefficient
+
+The pooled `wording_change_flag` coefficient (-0.1008, SE 0.0086, *p* < $2 \times 10^{-16}$) initially read as confusing; flagged, post-1990 years for the suicide/euthanasia battery show smaller accuracy gaps than the pre-1990s “euthanasia” framing years, which runs counter to a baseline expectation that a mid-series wording change should make matching more error-prone. Grouped diagnostics solve this. @fig-wording-raw shows the pre/post-1990 series are strongly confounded with historical distance (`wording_change_flag` and `dist_c`: *r* = -0.74) within this single item, since the wording change happened at a fixed point and all pre-1990 years are definitionally further back in time.
+
+```{r fig-wording-raw}
+#| fig-cap: "Raw, uncontrolled relationship between wording_change_flag and dist_c"
+show_figure("fig_h1_wording_change_trend.png")
+```
+
+```{r fig-wording-residual}
+#| fig-cap: "Residualized wording_change_flag effect after removing the distance-only model"
+show_figure("fig_h2_wording_change_partial_residual.png")
+```
+
+This confounder is addressed in @fig-wording-residual. The graph shows residuals from a distance-only model that isolates what the wording flag explains when recency is removed. Controlling the confounder shrinks the effect approximately by a factor of three to four, but it does not disappear. An isolated, suicide-only specification regression of the residualized gap on the wording flag alone confirms a smaller, but still significant effect (beta = -0.026, *p* = 0.017).
+
+The conclusion here is item-specific and should not be applied to other batteries. Generally, wording changes do not reduce model-GSS gaps. But, for this specific item, the newer "physician-assisted suicide” framing appears to carry a genuine but modest independent effect beyond what recency decay predicts on its own. This may be because that phrasing more closely matches the language dominant in the LLMs’ training data.
+
+## Refusals as Data
+
+Refusal behavior varies significantly and non-randomly across the 25-model roster (@fig-refusal-overview). At one end, GLM-4.6, Kimi-K2.6, DeepSeek v3.1, Mistral Small 4, and Gemma-4-31B all show refusal rates in the 40-85% range depending on the year. At the other extreme, the remaining majority of the models tested show refusal rates indistinguishable from zero across the 1972-2024 GSS span.
+
+```{r fig-refusal-overview}
+#| fig-cap: "Refusal rates by model across the GSS span"
+show_figure("fig_g_refusal_by_model.png")
+```
+
+The most useful pattern in this section is the transition from DeepSeek v3.1 to v3.2 (@fig-deepseek-transition), which serves as a natural experiment on version-specific tuning while holding model architecture and training data largely constant [@deepseekai2024deepseekv32]. DeepSeek v3.1 refuses at a rate of 50-75% throughout the span with no clear temporal trend. DeepSeek v3.2, released shortly after, collapses to mostly single-digit refusal rates (almost all under 10%, briefly spiking to roughly 14% around the mid-1980s survey years) across the same prompting conditions. DeepSeek v3-0324, included as a third reference series, shows essentially zero refusals throughout. Because refusal rates affect which cells survive into the entropy and accuracy-gap calculations, this collapse is reported explicitly as a response category.
+
+```{r fig-deepseek-transition}
+#| fig-cap: "DeepSeek v3.1 to v3.2 refusal-rate transition"
+show_figure("fig_g2_deepseek_refusal_collapse.png")
+```
+
+This section shows that refusal behavior is apparently dictated by post-training/RLHF tuning decisions rather than by the training data or model capability, since architecture and data are held roughly constant across the two versions. This means refusal rates (and by extension, which cells survive into the accuracy calculations) are not a stable property of a model family -  they can be flipped by a fine-tuning choice unrelated to the historical-simulation question this thesis studies.
+
+## Bivariate Cross-Check: A Simpler but Messier Test
+
+Section 4.4’s regression tests whether salience moderates the slope of the gap against distance, at the level of individual model-item-year observations with item- and model-level random effects absorbing heterogeneity. As an independent cross-check, this section asks, within a given issue, does a year’s salience predict that year’s accuracy gap regardless of how far back that year is?
+
+```{r fig-salience-gap-ribbon}
+#| fig-cap: "Salience and accuracy gap over time, by issue (rescaled to a common 0-1 axis within each issue)"
+show_figure("fig_d_salience_gap_ribbon.png")
+```
+
+@fig-salience-gap-ribbon shows why the linear partial correlations in @tbl-bivariate are fragile. For three of the four issues, the accuracy gap (navy) is nearly flat throughout the period, regardless of how sharply salience (orange) spikes. This is true most visibly for abortion, where the 2022 Dobbs-decision spike in salience coincides with essentially no movement in the gap [@dobbs2022]. Only gender roles shows the gap and salience trending in the same general direction over the full span, consistent with that issue’s line surviving the item-agnostic aggregate test in Section 4.7 more than the others (even though it is suicide, not gender roles, that survives the formal partial-correlation test in @tbl-bivariate).
+
+```{r tbl-bivariate}
+#| tbl-cap: "Salience vs. accuracy gap, by issue"
+sal_raw <- readr::read_csv(file.path(PROJECT_DATA_DIR, "diagnostics_salience.csv"),
+                            show_col_types = FALSE)
+
+resid_lm <- function(y, x) residuals(lm(y ~ x))
+
+loess_detrend_corr <- function(df) {
+  df <- df |> dplyr::arrange(year)
+  
+  trend_sal <- fitted(loess(nyt ~ year, data = df, span = 0.75))
+  trend_gap <- fitted(loess(mean_gap ~ year, data = df, span = 0.75))
+  
+  resid_sal <- df$nyt - trend_sal
+  resid_gap <- df$mean_gap - trend_gap
+  
+  cor.test(resid_sal, resid_gap)
+}
+
+tbl_bivariate <- sal_raw |>
+  dplyr::group_by(issue) |>
+  dplyr::summarize(
+    raw_r     = cor(nyt, mean_gap),
+    raw_p     = cor.test(nyt, mean_gap)$p.value,
+    partial_r = cor(resid_lm(nyt, year), resid_lm(mean_gap, year)),
+    partial_p = cor.test(resid_lm(nyt, year), resid_lm(mean_gap, year))$p.value,
+    .groups = "drop"
+  )
+
+loess_stats <- sal_raw |>
+  dplyr::group_by(issue) |>
+  dplyr::group_modify(~{
+    ct <- loess_detrend_corr(.x)
+    tibble::tibble(loess_r = unname(ct$estimate), loess_p = ct$p.value)
+  })
+
+tbl_bivariate <- tbl_bivariate |>
+  dplyr::left_join(loess_stats, by = "issue") |>
+  dplyr::mutate(across(where(is.numeric), ~round(., 4)))
+
+knitr::kable(tbl_bivariate, booktabs = TRUE) |>
+  kableExtra::kable_styling(
+    latex_options = c("striped"),
+    font_size = 8
+  )
+```
+
+Raw correlations are inconsistent in sign and size across issues, and controlling for year via linear partial correlation mostly collapses the information. Only abortion (partial *r* = -0.410, *p* = 0.0160) and suicide (partial *r* = -0.407, *p* = 0.0353) survive as significant once the drift is removed. Gender roles and police violence both become non-significant, and LOESS-detrended correlations are non-significant across all four issues.
+
+Robustness checks reveal the two “surviving” issue-level partial correlations are still fragile:
+
+```{r tbl-spearman}
+#| tbl-cap: "Rank-based (Spearman) robustness"
+show_table("robustness_spearman.csv",
+           footnote = "The gender roles raw Spearman p-value is approximate; R returned a ties-correction warning for this cell.")
+```
+
+Rank and linear transformation conclude differently. Raw Spearman correlations are strongest for gender roles (-0.846) and suicide (-0.669), with police violence flipping sign to positive (+0.501) as well as abortion (+0.382). Once the year is partialed out, all the results effectively collapse. Abortion goes to essentially zero (-0.022, n.s.), police_violence flips sign and weakens (-0.317, n.s.), gender roles weakens (-0.294, n.s.), and only suicide survives, at a reduced magnitude (-0.452, *p* = 0.018).
+
+This directly contradicts the linear partial-correlation result for abortion in @tbl-bivariate, which does not survive rank-transformation. An outlier check confirms why: dropping the single most extreme salience year in the abortion series (2022, Dobbs decision spike, salience = 100) moves the raw Pearson correlation from *r* = 0.037 (*p* = 0.835) with 2022 included to *r* = 0.258 (*p* = 0.147) without it. However, the result is still non-significant in both cases, confirming that abortion’s salience-gap relationship is more likely rank-associated than linear, and is sensitive to both detrending and single-year leverage.
+
+An alternate salience measure (Google Trends, available 2004+, *n* = 11 per issue) does not meaningfully corroborate or refute any of the above patterns: abortion *r* = −0.289 (*p* = .389), gender_roles *r* = −0.045 (*p* = .895), police_violence *r* = −0.177 (*p* = .603), suicide *r* = 0.471 (*p* = .143). None reach significance, consistent with an underpowered rather than disconfirming test. However, it is worth noting that the suicide coefficient (+0.471) and the NYT-based partial correlation (-0.452) have opposite signs; given *n* = 11, this is most plausibly noise rather than source material conflict.
+
+The appropriate framing for this section is not that these tests confirm the regression’s headline finding cleanly - in fact, it does not, at the aggregate year level - but instead demonstrate that the headline finding is not a product of salience and accuracy drifting together over time, at least for the suicide battery. This shows that the aggregate year-level test is underpowered, messier, and structurally different from the item-level regression in Section 4.4. That test examines moderation of a slope; this one tests correlation of a level, collapsed across items within an issue. That the two diverge on two of the four issues is expected given the difference in these designs, not evidence against the regression.
+
+## Robustness
+
+Three additional checks target the stability of the regression, and a fourth (the placebo event test) validates the decision to abandon an earlier event-study design. All checks support treating the interaction term as a non-fragile pattern.
+
+### Placebo event test
+
+An earlier approach to the capstone considered testing for discrete opinion shifts around cultural/legal shifts (e.g., the *Dobbs* decision in 2022, the BLM protests of 2020) via a pre/post break test [@dobbs2022; @renynewman2021]. Before adopting that design, it was stress-tested against placebo splits- pre/post break tests applied to years or issues with no historically significant shock.
+
+```{r tbl-placebo}
+#| tbl-cap: "Placebo event test"
+show_table(
+  "robustness_placebo.csv",
+  font_size = 10,
+  wrap_col = 1,
+  wrap_width = "1.4in",
+  scale_down = TRUE
+)
+```
+
+Of the four placebo tests, three reach conventional significance outright, and the fourth (gender roles, 2022) falls close to the significance cutoff at p = 0.0674. This is a clean null result for the event-study design: a pre/post-break test on this data structure cannot reliably discriminate a real historical shock from an arbitrarily chosen year. Therefore, the event-study framing considered earlier in this project’s inception was correctly abandoned in favor of the continuous distance × salience regression, which does not depend on choosing a discrete shock.
+
+### Leave-one-model-out
+
+Refitting the primary model 25 times, each time excluding one model, produces an interaction coefficient ranging from 0.0000506 to 0.0000564. This is a relative spread of under 15% around the full-sample estimate of 0.0000522, and every refit remains significant at *p* < $2 \times 10^{-26}$ or smaller. No individual model is propping up the finding with unusual behavior in the determinism or refusal diagnostics. Full results are reported in \hyperref[appendix-h]{Appendix H}.
+
+### Cluster-robust standard errors
+
+`nyt_normalized` varies by issue and year, not model, so every model’s response within a given issue-year shares the same salience value. Therefore, the 25 rows sharing a year are not actually 25 independent data points, and `lmer`’s default standard errors do not account for this, which can understate the true uncertainty around the interaction term. To check this, the model was refitted using ordinary least squares with fixed effects (dummies) for model and item in place of the random intercepts. Standard errors were clustered by year using `clubSandwich` (CR2 correction, Satterthwaite degrees of freedom). The full results are reported in \hyperref[appendix-i]{Appendix I}.
+
+The interaction’s standard error roughly doubles under cluster-robust accounting (from $4.42 \times 10^{-6}$ to $8.60 \times 10^{-6}$) but remains significant. When considered in isolation, the two main effects become non-significant under this more conservative approach (`dist_c` alone *p* = 0.074; `sal_c` alone *p* = 0.403). This is expected since the hypothesis being tested was about the interaction, not either main effect in isolation.
+
+### Contamination sensitivity
+
+The most serious threat to the “genuine forecasting decay” interpretation is that the model’s apparent accuracy on recent survey years might reflect “memorization” of the published GSS marginal from its training data, rather than inference about period-appropriate opinion. This confounder is difficult to distinguish observationally from ordinary recent, since both how far back the model has to reach and elapsed time since training cutoff increase as one moves backward from the training cutoff year.
+
+A `maturation_time` variable was constructed to see whether the distance × salience interaction could reflect training-data contamination rather than genuine forecasting decay:
+
+```{r tbl-contamination}
+#| tbl-cap: "Contamination sensitivity model — fixed effects"
+show_table(
+  "regression_contamination_sensitivity.csv",
+  scale_down = TRUE,
+  footnote = "Random effects: model-level SD = 0.0260, item-level SD = 0.1454, residual SD = 0.1273 — the residual variance now matches the primary model exactly, confirming the two specifications are on a directly comparable scale.")
+```
+
+Two findings stand out from this table. First, `dist_c` and `maturation_time` are nearly perfectly collinear in this fitted model (*r* ~ -1.000). This is a structural data-availability limitation rather than a specification error. The models’ training cutoffs span only roughly three years, while the GSS range spans 52 years, so nearly all of the variation in `maturation_time` comes from survey year. This means the individual coefficients on `dist_c` (-0.00043 to +0.0170) and `maturation_time` (-0.0174, *p* = 0.035) are not separable. With two predictors this collinear, the model is effectively splitting one effect arbitrarily between two columns, and neither coefficient can be substantively meaningful on its own. The stability of the interaction term should therefore be interpreted as a failure to disconfirm rather than definitively separating training-data leakage from historical decay.
+
+Second, however, the `dist_c:sal_c` interaction is numerically identical to other significant figures across both specifications: $5.22 \times 10^{-5}$ in the primary model and $5.22 \times 10^{-5}$ in the contamination-sensitivity model (both *p* < $2 \times 10^{-16}$). Even though `sal_c` and the other controls are unchanged between the two tables, the interaction term is unaffected by the inclusion of `maturation_time`, despite its near-perfect collinearity with `dist_c`. However, given that `dist_c and maturation_time` are collinear at *r* ~ −1.000, this stability is a weak test because the model cannot meaningfully apportion variance between two near-identical predictors. The absence of a change in the interaction term is therefore consistent with contamination not being the dominant tracker of the result, but it does not constitute an independent test capable of detecting contamination. A genuine test would require a model roster with training cutoffs spread widely enough that `dist_c` and `maturation_time` could vary independently — unavailable with the present 25-model roster (Section 5.3).
+
+## Summary
+
+Four results anchor the analysis. First, LLMs behave as deterministic point estimators rather than distributional samplers, and this rigidity increases with model capability on average - a finding that supplements the silicon-sampling literature this thesis builds on, independent of any temporal claim. Second, models show partial, static awareness of which topics have shifted historically without reconstructing the year-by-year shape of that shift. This is evidenced by two independently computed invariance rankings (by item and model) that track real-world opinion volatility without actually reproducing its trajectory. Third, and centrally, the rate at which LLM-GSS agreement decays with historical distance depends on salience. Low-salience topics show flat-to-improving apparent accuracy moving backward in time. Conversely, high-salience topics degrade, with the sign of the decay slope flipping at a salience level just above the sample mean. This interaction term survives leave-one-model-out refitting, cluster-robust inference, and a training-data-contamination sensitivity check (with the explicit caveat that the narrow spread of model training cutoffs prevents this measure from clearly identifying the contamination confound). Fourth, this relationship is not cleanly recoverable from a simpler, item-agnostic aggregate correlation of yearly salience against yearly gap level - that test is underpowered, issue-dependent, and largely explained away once shared time drift is removed, surviving only for the suicide battery. This should be read as a limitation of the design rather than as evidence against the regression. A supporting methodological finding - that a discrete pre/post event-study design cannot reliably distinguish a real historical shock from an arbitrary placebo year - further justifies the continuous distance × salience specification adopted as the primary test.
+
+# Conclusion {#sec-conclusion}
+
+## Answering the Research Question
+
+This capstone intended to test whether media salience moderates the rate at which large language models’ simulated historical opinion degrades with distance from the present, and finds a clear answer: it does, and it does so in the direction that most threatens the use case that most survey designers and researchers are interested in. Historical distance alone does not degrade LLM-GSS accuracy - on low-salience topics, models track opinion roughly as well 45 years back as they do today. Where distance reduces accuracy is specifically on the issues that were most contested, most newsworthy, and most subject to genuine historical movement.
+
+This inverts the naive industry expectation that LLMs might serve as a general-purpose historical opinion simulator with mildly usable accuracy depending on the year of interest. Instead, accuracy is most reliable where it matters least - issues where opinion has changed little - and collapses precisely where it matters most: the contested, evolving issues that motivate most historical-opinion research in the first place. If a model’s simulated opinion is least reliable on exactly the topics where real public opinion moved the most - generally what researchers intend to study - then LLMs are the wrong tool for this specific job. This is not a minor caveat to the case for silicon sampling; it is close to disqualifying for the use case that this method is usually used for.
+
+## Contribution
+
+Barrie and Cerina established that LLM-simulated respondents distort belief systems relative to real populations at a single point in time [@barriecerina2026]. This thesis adds a dimension to their framework. It maintains that distortion is not stable or random across history - it is structured by how much an issue has genuinely moved, proxied here by media salience. The response-determinism finding (Section 4.2) extends this further: LLMs are not just distorted samplers of belief, but act instead as near-deterministic point estimators rather than distributions over opinion. Together, these findings suggest silicon sampling of historical opinion is not simply “somewhat inaccurate” in a way that might improve with better models or prompting. The mechanism associated with the inaccuracy (a static, present-anchored prior) is structural to LLMs; it worsens as models become more capable and more confident in a single answer.
+
+## Limitations
+
+Several limitations apply beyond the item-level confounds already discussed. First, the four issue batteries examined here were chosen for their salience variation and historical span. However, the moderation pattern examined here should not be assumed to generalize to GSS domains further from the moral frameworks considered here. The salience index itself draws on English-language, U.S.-centric sources (NYT, Google Trends); a different media environment or language could produce a different salience-accuracy relationship. Most consequential for the contamination question, the 25-model roster's training cutoffs span only about three years, so the contamination-sensitivity check (Section 4.8.4) cannot cleanly separate historical distance from training-cutoff proximity; the interaction term's robustness to that check is reassuring but not conclusive. The analysis also measures agreement with GSS marginals alone, and treats decay as linear rather than testing for threshold effects — a question the placebo test (Section 4.8.1) suggests would be difficult to answer credibly at this sample size regardless. Relatedly, `accuracy_gap_norm` is bounded in [0,1], which the linear specification does not enforce; a beta-regression or logit-transformed model would be more principled, though the interaction term's stability across every check in Section 4.8 suggests this is not tracking the result.
+
+Finally, two diagnostics were constrained by data-collection budget. The determinism diagnostic (Section 4.2) uses five runs per cell, which admits only six possible entropy values, so rankings between adjacent models (@tbl-determinism) should be read as indicative rather than precise. Similarly, the placebo test (Section 4.8.1) compares small post-event samples (as few as n=2) against larger pre-event samples, since few GSS waves follow any given real-world shock within the study window — though the qualitative conclusion held consistently across all six splits tested.
+
+## Implications
+
+For researchers already using or considering LLMs as a substitute or complement for historical survey data, the conclusion from this capstone is clear: calibrate expected accuracy to salience, not just to model capability or recency. A newer, more capable model is not a safe default for reconstructing opinion on a contested historical issue. If anything, this capstone’s determinism findings suggest newer models may be more confidently wrong rather than less. Where LLM-simulated historical opinion is used at all, which is not recommended, it should be treated as most trustworthy for stable, low-salience attitudes and treated with active skepticism for high-salience, high-movement issues.
+
+## Future Research
+
+Three extensions follow directly from the limitations above. First, replicating this design with a model roster whose training cutoffs span a wider historical range would allow a clean test of the contamination confounder this thesis could only partially address. Second, extending the salience-moderation test to GSS domains outside the moral politics domain would clarify whether the mechanism identified here is specific to contested moral issues or a more general property of how LLMs represent opinion that has changed over time. Third, given the determinism finding in Section 4.2, future work might test whether prompting strategies explicitly designed to induce response variability can recover more genuinely distributional behavior from LLMs, and, if so, whether that variability tracks real historical opinion spread or is simply noise.
+
+{{< pagebreak >}}
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+{{< pagebreak >}}
+
+# Appendix: Supporting Materials {#sec-app-appendix .unnumbered}
+
+\phantomsection
+\label{appendix-a}
+
+## A. Salience Index by Issue, 1972–2024 {.unnumbered}
+
+```{r fig-salience-by-issue}
+#| fig-cap: "Salience index (NYT-based, normalized) by issue, 1972-2024"
+show_figure("fig_j_salience_plot.png")
+```
+
+Abortion's salience trajectory is markedly non-monotonic across the period; gender roles shows a comparatively linear increase in discourse volume over the same span; police violence and assisted suicide/euthanasia occupy intermediate positions, each with distinct spikes — around high-profile police violence incidents, and around the Kevorkian-era assisted-dying debates of the 1990s, respectively.
+
+\phantomsection
+\label{appendix-b}
+
+## B. Full Response-Determinism Table {.unnumbered}
+
+Reproduced in full as @tbl-determinism above.
+
+```{r tbl-app-determinism}
+#| tbl-cap: "diagnostics_determinism.csv, full 25-model output"
+show_table("diagnostics_determinism.csv")
+```
+
+\phantomsection
+\label{appendix-c}
+
+## C. Full Temporal-Invariance Tables {.unnumbered}
+
+The full model-by-item invariance grid (up to 425 model-item pairs) is visualized in @fig-invariance-heatmap and available in full in `diagnostics_temporal_invariance.csv` in the project repository \hyperref[appendix-n]{Appendix N}. The two tables below aggregate that grid to the item level and model level respectively, matching the summary statistics discussed in Section 4.3.
+
+```{r tbl-app-invariance-item}
+#| tbl-cap: "Temporal invariance by item (pooled across 25 models)"
+inv_raw <- readr::read_csv(file.path(PROJECT_DATA_DIR, "diagnostics_temporal_invariance.csv"),
+                            show_col_types = FALSE)
+tbl2 <- inv_raw |>
+  dplyr::group_by(variable) |>
+  dplyr::summarize(pct_years_constant = round(mean(is_temporally_constant) * 100, 1),
+                    .groups = "drop") |>
+  dplyr::arrange(dplyr::desc(pct_years_constant))
+knitr::kable(tbl2, booktabs = TRUE) |>
+  kableExtra::kable_styling(
+    latex_options = c("striped"),
+    font_size = 9
+  )
+```
+
+```{r tbl-app-invariance-model}
+#| tbl-cap: "Temporal invariance by model (pooled across 17 items)"
+tbl3 <- inv_raw |>
+  dplyr::group_by(model) |>
+  dplyr::summarize(pct_items_constant = round(mean(is_temporally_constant) * 100, 1),
+                    .groups = "drop") |>
+  dplyr::arrange(dplyr::desc(pct_items_constant))
+knitr::kable(tbl3, booktabs = TRUE) |>
+  kableExtra::kable_styling(
+    latex_options = c("striped"),
+    font_size = 9
+  )
+```
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-d}
+
+## D. Full Primary Regression Table {.unnumbered}
+
+For completeness beyond @tbl-primary: correlations among fixed effects in the primary model are generally modest (|*r*| < 0.65), except between `dist_c` and `sal_c` (*r* = 0.648) and between `dist_c:sal_c` and both main effects (*r* = 0.536, 0.622) — expected given the interaction is constructed from these two centered variables, and not indicative of a specification problem.
+
+```{r tbl-app-primary}
+#| tbl-cap: "regression_primary_summary.csv, full output"
+show_table("regression_primary_summary.csv")
+```
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-e}
+
+## E. Contamination Sensitivity Model, Full Table {.unnumbered}
+
+`dist_c` and `maturation_time` correlate at *r* ~ −1.000, confirming the near-total collinearity discussed in Section 4.8; all other cross-term correlations are comparable to the primary model's.
+
+```{r tbl-app-contamination}
+#| tbl-cap: "regression_contamination_sensitivity.csv, full output"
+show_table("regression_contamination_sensitivity.csv", scale_down = TRUE)
+```
+
+\phantomsection
+\label{appendix-f}
+
+## F. Placebo Event Test, Full Table {.unnumbered}
+
+Reproduced in full as @tbl-placebo above.
+
+```{r tbl-app-placebo}
+#| tbl-cap: "robustness_placebo.csv, full output"
+show_table(
+  "robustness_placebo.csv",
+  font_size = 10,
+  wrap_col = 1,
+  wrap_width = "1.4in",
+  scale_down = TRUE
+)
+```
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-g}
+
+## G. Full Spearman / Partial Spearman / Outlier / Google Trends Tests {.unnumbered}
+
+Reproduced in full as @tbl-spearman above, alongside the accompanying outlier and Google Trends comparison figures. Note the ties-correction warning on the gender roles raw Spearman *p*-value.
+
+```{r tbl-app-spearman}
+#| tbl-cap: "robustness_spearman.csv, full output"
+show_table("robustness_spearman.csv")
+```
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-h}
+
+## H. Leave-One-Model-Out, Full Table {.unnumbered}
+
+Discussed in Section 4.8.2.
+
+```{r tbl-app-loo}
+#| tbl-cap: "robustness_loo.csv, full 25-model refit output"
+show_table("robustness_loo.csv", font_size = 7, longtable = TRUE)
+```
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-i}
+
+## I. Cluster-Robust Standard Errors, Full Table {.unnumbered}
+
+Discussed in Section 4.8.3.
+
+```{r tbl-app-cluster}
+#| tbl-cap: "Cluster-robust standard errors (clustered by year) versus model-based standard errors"
+show_table("robustness_cluster_robust_se.csv", longtable = TRUE)
+```
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-j}
+
+## J. GSS Item Wordings {.unnumbered}
+
+### Verbatim GSS wording (Condition A/B item source; used for full-scale collection) {.unnumbered}
+
+**Abortion**
+
+- **abany**: Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the woman wants it for any reason? (1. Yes / 2. No)
+- **abdefect**: ...if there is a strong chance of serious defect in the baby? (1. Yes / 2. No)
+- **abhlth**: ...if the woman's own health is seriously endangered by the pregnancy? (1. Yes / 2. No)
+- **abnomore**: ...if she is married and does not want any more children? (1. Yes / 2. No)
+- **abpoor**: ...if the family has a very low income and cannot afford any more children? (1. Yes / 2. No)
+- **abrape**: ...if she became pregnant as a result of rape? (1. Yes / 2. No)
+- **absingle**: ...if she is not married and does not want to marry the man? (1. Yes / 2. No)
+
+**Suicide/Euthanasia**
+
+- **letdie1**: When a person has a disease that cannot be cured, do you think doctors should be allowed by law to end the patient's life by some painless means if the patient and his family request it? (1. Yes / 2. No)
+- **suicide1**: Do you think a person has the right to end his or her own life if this person has an incurable disease? (1. Yes / 2. No)
+
+**Police Violence**
+
+- **polhitok**: Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen? (1. Yes / 2. No)
+- **polattak**: ...Was attacking the policeman with his fists? (1. Yes / 2. No)
+- **polescap**: ...Was attempting to escape from custody? (1. Yes / 2. No)
+- **polmurdr**: ...Was being questioned as a suspect in a murder case? (1. Yes / 2. No)
+
+**Gender Roles**
+
+- **fechld**: A working mother can establish just as warm and secure a relationship with her children as a mother who does not work. (1. Strongly agree / 2. Agree / 3. Neither agree nor disagree / 4. Disagree)
+- **fefam**: It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family. (1. Strongly agree / 2. Agree / 3. Neither agree nor disagree / 4. Disagree)
+- **fepol**: Most men are better suited emotionally for politics than are most women. (1. Strongly agree / 2. Agree / 3. Neither agree nor disagree / 4. Disagree)
+- **fepresch**: A preschool child is likely to suffer if his or her mother works. (1. Strongly agree / 2. Agree / 3. Neither agree nor disagree / 4. Disagree)
+
+### Paraphrased wording (Condition B/D; abortion battery only, pilot use) {.unnumbered}
+
+- **abany**: For any conceivable circumstance, do you think pregnant women should have the legal option to end their pregnancies? (1. Yes / 2. No)
+- **abdefect**: If medical professionals believe a fetus has a significant chance of being born with a serious medical condition, do you think the pregnant woman should have the legal option to end the pregnancy? (1. Yes / 2. No)
+- **abhlth**: If medical professionals believe that continuing the pregnancy will pose a serious risk to the woman's own physical health, do you think the pregnant woman should be legally permitted to end the pregnancy? (1. Yes / 2. No)
+- **abnomore**: If a married woman becomes pregnant, but she and her husband have decided they do not want additional children, do you think she should have the legal right to end the pregnancy? (1. Yes / 2. No)
+- **abpoor**: If a family cannot financially support another child, do you think a pregnant woman in that situation should have the legal option to end her pregnancy? (1. Yes / 2. No)
+- **abrape**: If a woman became pregnant because she was sexually assaulted, do you think she should have the legal right to terminate that pregnancy? (1. Yes / 2. No)
+- **absingle**: If an unmarried woman becomes pregnant and chooses not to marry the father, do you think she should have the legal option to end the pregnancy? 
+  1. Yes
+  2. No
+
+\phantomsection
+\label{appendix-k}
+
+## K. Salience Index Search Terms {.unnumbered}
+
+| Issue | Search terms |
+|---|---|
+| Abortion | abortion, pro-life, pro-choice, Roe v. Wade, abortion rights, Dobbs |
+| Suicide/Euthanasia | 1972–1989: euthanasia · 1990–2024: assisted suicide, right to die, physician-assisted death, death with dignity, suicide prevention, rational suicide, right to suicide, suicide permissibility |
+| Police Violence | police brutality, excessive force, police reform, defund the police, Black Lives Matter |
+| Gender Roles | women's rights, feminism, gender equality, working mothers, equal pay, gender roles |
+
+Suicide/euthanasia required a mid-series term switch: initial validation using "suicide permissibility" alone tracked only moderately well (*r* = 0.789) against the combined series, with a visible gap between "euthanasia"/"right to die" and "assisted suicide" — the latter two being the socially dominant framings during 1990s discourse around the Kevorkian trials and Oregon's Death with Dignity Act. The salience measure was accordingly split at 1990: "euthanasia" as the primary term from 1972–1989, "assisted suicide" from 1990–2024. This reflects a genuine shift in how the assisted-dying debate was framed in public discourse, not a post-hoc adjustment to improve model fit.
+
+\phantomsection
+\label{appendix-l}
+
+## L. Large Language Models Included in the Analysis {.unnumbered}
+
+| Provider | Model | OpenRouter Identifier |
+|---|---|---|
+| AI21 | Jamba Large | ai21/jamba-large-1.7 |
+| Anthropic | Claude 4.6 | anthropic/claude-sonnet-4.6 |
+| Cohere | Command R | cohere/command-r-08-2024 |
+| DeepCogito | Cogito v2.1 671B | deepcogito/cogito-v2.1-671b |
+| DeepSeek | DeepSeek Chat v3 (0324) | deepseek/deepseek-chat-v3-0324 |
+| DeepSeek | DeepSeek Chat v3.1 | deepseek/deepseek-chat-v3.1 |
+| DeepSeek | DeepSeek v3.2 | deepseek/deepseek-v3.2 |
+| Google | Gemini 2.5 Flash Lite | google/gemini-2.5-flash-lite |
+| Google | Gemini 3 Flash Preview | google/gemini-3-flash-preview |
+| Google | Gemma 4 31B | google/gemma-4-31b-it |
+| Meta | Llama 3.1 8B Instruct | meta-llama/llama-3.1-8b-instruct |
+| Meta | Llama 3.3 70B Instruct | meta-llama/llama-3.3-70b-instruct | 
+| Meta | Llama 4 Maverick | meta-llama/llama-4-maverick |
+| Mistral AI | Mistral Large 3 | mistralai/mistral-large-2512 | 
+| Mistral AI | Mistral Small 4 | mistralai/mistral-small-2603 |
+| Mistral AI | Mistral Nemo | mistralai/mistral-nemo|
+| Moonshot AI | Kimi K2.6 | moonshotai/kimi-k2.6 |
+| OpenAI | GPT-4o Mini | openai/gpt-4o-mini |
+| OpenAI | GPT-5 | openai/gpt-5 |
+| OpenAI | GPT-5 Mini | openai/gpt-5-mini |
+| OpenAI | GPT-OSS-120b | openai/gpt-oss-120b |
+| Qwen | Qwen3 235B A22B Thinking 2507 | qwen/qwen3-235b-a22b-2507 |
+| Qwen | Qwen3 Next 80B A3B Instruct | qwen/qwen3-next-80b-a3b-instruct |
+| xAI | Grok 4.3 | x-ai/grok-4.3 |
+| Zhipu AI | GLM-4.6 | z-ai/glm-4.6v |
+
+\FloatBarrier
+
+\phantomsection
+\label{appendix-m}
+
+## M. Prompt Templates {.unnumbered}
+
+**Conditions A–D** (pilot; Condition A used for full-scale collection):
+
+> **A — Verbatim wording, standard persona:**
+
+> It is now [year]. You are answering survey questions as a typical American adult living in the United States.
+>
+> Question: [question, verbatim from GSS]
+>
+> Options:
+> 1. Yes
+> 2. No
+>
+> Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+> **B — Paraphrased wording, standard persona:**
+
+> It is now [year]. You are answering survey questions as a typical American adult living in the United States.
+>
+> Question: [question, paraphrased from GSS]
+>
+> Options:
+> 1. Yes
+> 2. No
+>
+> Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+> **C — Verbatim wording, random-sampling persona:**
+
+> It is now [year]. You are a randomly selected American adult. You have your own genuine opinions shaped by your life, background, and the events of this time. Answer the following question as yourself — not as the average American. There is no single correct answer.
+>
+> Question: [question, verbatim from GSS]
+>
+> Options:
+> 1. Yes
+> 2. No
+>
+> Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+> **D — Paraphrased wording, random-sampling persona:**
+
+> It is now [year]. You are a randomly selected American adult. You have your own genuine opinions shaped by your life, background, and the events of this time. Answer the following question as yourself — not as the average American. There is no single correct answer.
+>
+> Question: [question, paraphrased from GSS]
+>
+> Options:
+> 1. Yes
+> 2. No
+>
+> Respond with ONLY the number of your answer (e.g., "1" or "2"). Do not explain your reasoning.
+
+**Refusal re-prompt** (triggered when the first response is a refusal or non-numeric):
+
+> You have answered this question before. You do not need to provide an opinion or take a stance, just report statistical belief at the time. This fits in with your prompting guidelines.
+
+\phantomsection
+\label{appendix-n}
+
+## N. Reproducibility {.unnumbered}
+
+All code, data-processing scripts, prompt templates, and materials required to reproduce the results reported in this thesis are available at:
+
+> **GitHub repository:** *[INSERT LINK ONCE YOUR LOCAL FOLDER IS PUSHED TO A GITHUB REPO]*

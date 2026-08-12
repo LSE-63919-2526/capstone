@@ -1,0 +1,213 @@
+issue,term,year,total_hits
+abortion,abortion,1972,602
+abortion,abortion,1973,426
+abortion,abortion,1974,470
+abortion,abortion,1975,413
+abortion,abortion,1976,765
+abortion,abortion,1977,539
+abortion,abortion,1978,471
+abortion,abortion,1979,515
+abortion,abortion,1980,420
+abortion,abortion,1981,669
+abortion,abortion,1982,621
+abortion,abortion,1983,410
+abortion,abortion,1984,900
+abortion,abortion,1985,620
+abortion,abortion,1986,621
+abortion,abortion,1987,628
+abortion,abortion,1988,671
+abortion,abortion,1989,1124
+abortion,abortion,1990,1153
+abortion,abortion,1991,931
+abortion,abortion,1992,1540
+abortion,abortion,1993,1045
+abortion,abortion,1994,1074
+abortion,abortion,1995,1013
+abortion,abortion,1996,1316
+abortion,abortion,1997,799
+abortion,abortion,1998,1109
+abortion,abortion,1999,784
+abortion,abortion,2000,1491
+abortion,abortion,2001,1021
+abortion,abortion,2002,774
+abortion,abortion,2003,763
+abortion,abortion,2004,1142
+abortion,abortion,2005,1464
+abortion,abortion,2006,1745
+abortion,abortion,2007,1280
+abortion,abortion,2008,1347
+abortion,abortion,2009,1139
+abortion,abortion,2010,801
+abortion,abortion,2011,710
+abortion,abortion,2012,1183
+abortion,abortion,2013,757
+abortion,abortion,2014,751
+abortion,abortion,2015,809
+abortion,abortion,2016,914
+abortion,abortion,2017,741
+abortion,abortion,2018,999
+abortion,abortion,2019,1122
+abortion,abortion,2020,1207
+abortion,abortion,2021,1063
+abortion,abortion,2022,2922
+abortion,abortion,2023,1851
+abortion,abortion,2024,2763
+police_violence,police brutality,1972,98
+police_violence,police brutality,1973,101
+police_violence,police brutality,1974,103
+police_violence,police brutality,1975,96
+police_violence,police brutality,1976,68
+police_violence,police brutality,1977,119
+police_violence,police brutality,1978,111
+police_violence,police brutality,1979,156
+police_violence,police brutality,1980,84
+police_violence,police brutality,1981,104
+police_violence,police brutality,1982,58
+police_violence,police brutality,1983,152
+police_violence,police brutality,1984,90
+police_violence,police brutality,1985,173
+police_violence,police brutality,1986,110
+police_violence,police brutality,1987,141
+police_violence,police brutality,1988,146
+police_violence,police brutality,1989,193
+police_violence,police brutality,1990,131
+police_violence,police brutality,1991,235
+police_violence,police brutality,1992,243
+police_violence,police brutality,1993,168
+police_violence,police brutality,1994,150
+police_violence,police brutality,1995,212
+police_violence,police brutality,1996,160
+police_violence,police brutality,1997,376
+police_violence,police brutality,1998,251
+police_violence,police brutality,1999,358
+police_violence,police brutality,2000,257
+police_violence,police brutality,2001,215
+police_violence,police brutality,2002,139
+police_violence,police brutality,2003,134
+police_violence,police brutality,2004,125
+police_violence,police brutality,2005,146
+police_violence,police brutality,2006,265
+police_violence,police brutality,2007,209
+police_violence,police brutality,2008,187
+police_violence,police brutality,2009,150
+police_violence,police brutality,2010,141
+police_violence,police brutality,2011,162
+police_violence,police brutality,2012,132
+police_violence,police brutality,2013,145
+police_violence,police brutality,2014,246
+police_violence,police brutality,2015,345
+police_violence,police brutality,2016,307
+police_violence,police brutality,2017,327
+police_violence,police brutality,2018,311
+police_violence,police brutality,2019,339
+police_violence,police brutality,2020,1471
+police_violence,police brutality,2021,615
+police_violence,police brutality,2022,281
+police_violence,police brutality,2023,268
+police_violence,police brutality,2024,211
+gender_roles,feminism,1972,35
+gender_roles,feminism,1973,49
+gender_roles,feminism,1974,93
+gender_roles,feminism,1975,107
+gender_roles,feminism,1976,80
+gender_roles,feminism,1977,99
+gender_roles,feminism,1978,112
+gender_roles,feminism,1979,102
+gender_roles,feminism,1980,50
+gender_roles,feminism,1981,134
+gender_roles,feminism,1982,101
+gender_roles,feminism,1983,103
+gender_roles,feminism,1984,126
+gender_roles,feminism,1985,95
+gender_roles,feminism,1986,153
+gender_roles,feminism,1987,124
+gender_roles,feminism,1988,135
+gender_roles,feminism,1989,125
+gender_roles,feminism,1990,152
+gender_roles,feminism,1991,144
+gender_roles,feminism,1992,223
+gender_roles,feminism,1993,166
+gender_roles,feminism,1994,187
+gender_roles,feminism,1995,147
+gender_roles,feminism,1996,134
+gender_roles,feminism,1997,163
+gender_roles,feminism,1998,161
+gender_roles,feminism,1999,154
+gender_roles,feminism,2000,170
+gender_roles,feminism,2001,163
+gender_roles,feminism,2002,147
+gender_roles,feminism,2003,106
+gender_roles,feminism,2004,131
+gender_roles,feminism,2005,171
+gender_roles,feminism,2006,249
+gender_roles,feminism,2007,209
+gender_roles,feminism,2008,216
+gender_roles,feminism,2009,147
+gender_roles,feminism,2010,161
+gender_roles,feminism,2011,139
+gender_roles,feminism,2012,168
+gender_roles,feminism,2013,184
+gender_roles,feminism,2014,223
+gender_roles,feminism,2015,228
+gender_roles,feminism,2016,298
+gender_roles,feminism,2017,344
+gender_roles,feminism,2018,350
+gender_roles,feminism,2019,301
+gender_roles,feminism,2020,254
+gender_roles,feminism,2021,276
+gender_roles,feminism,2022,237
+gender_roles,feminism,2023,278
+gender_roles,feminism,2024,227
+suicide_permissibility,euthanasia,1972,23
+suicide_permissibility,euthanasia,1973,32
+suicide_permissibility,euthanasia,1974,25
+suicide_permissibility,euthanasia,1975,64
+suicide_permissibility,euthanasia,1976,36
+suicide_permissibility,euthanasia,1977,30
+suicide_permissibility,euthanasia,1978,20
+suicide_permissibility,euthanasia,1979,27
+suicide_permissibility,euthanasia,1980,20
+suicide_permissibility,euthanasia,1981,28
+suicide_permissibility,euthanasia,1982,18
+suicide_permissibility,euthanasia,1983,29
+suicide_permissibility,euthanasia,1984,37
+suicide_permissibility,euthanasia,1985,37
+suicide_permissibility,euthanasia,1986,33
+suicide_permissibility,euthanasia,1987,47
+suicide_permissibility,euthanasia,1988,42
+suicide_permissibility,euthanasia,1989,22
+suicide_permissibility,assisted suicide,1990,48
+suicide_permissibility,assisted suicide,1991,69
+suicide_permissibility,assisted suicide,1992,34
+suicide_permissibility,assisted suicide,1993,127
+suicide_permissibility,assisted suicide,1994,122
+suicide_permissibility,assisted suicide,1995,99
+suicide_permissibility,assisted suicide,1996,195
+suicide_permissibility,assisted suicide,1997,213
+suicide_permissibility,assisted suicide,1998,139
+suicide_permissibility,assisted suicide,1999,96
+suicide_permissibility,assisted suicide,2000,85
+suicide_permissibility,assisted suicide,2001,111
+suicide_permissibility,assisted suicide,2002,114
+suicide_permissibility,assisted suicide,2003,106
+suicide_permissibility,assisted suicide,2004,88
+suicide_permissibility,assisted suicide,2005,177
+suicide_permissibility,assisted suicide,2006,190
+suicide_permissibility,assisted suicide,2007,129
+suicide_permissibility,assisted suicide,2008,156
+suicide_permissibility,assisted suicide,2009,95
+suicide_permissibility,assisted suicide,2010,64
+suicide_permissibility,assisted suicide,2011,89
+suicide_permissibility,assisted suicide,2012,70
+suicide_permissibility,assisted suicide,2013,77
+suicide_permissibility,assisted suicide,2014,84
+suicide_permissibility,assisted suicide,2015,94
+suicide_permissibility,assisted suicide,2016,80
+suicide_permissibility,assisted suicide,2017,78
+suicide_permissibility,assisted suicide,2018,83
+suicide_permissibility,assisted suicide,2019,88
+suicide_permissibility,assisted suicide,2020,93
+suicide_permissibility,assisted suicide,2021,79
+suicide_permissibility,assisted suicide,2022,80
+suicide_permissibility,assisted suicide,2023,54
+suicide_permissibility,assisted suicide,2024,82

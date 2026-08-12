@@ -1,0 +1,213 @@
+issue,term,year,total_hits,nyt_normalized
+abortion,abortion,1972,602,7.643312101910828
+abortion,abortion,1973,426,0.6369426751592357
+abortion,abortion,1974,470,2.388535031847134
+abortion,abortion,1975,413,0.11942675159235669
+abortion,abortion,1976,765,14.132165605095542
+abortion,abortion,1977,539,5.135350318471338
+abortion,abortion,1978,471,2.428343949044586
+abortion,abortion,1979,515,4.179936305732483
+abortion,abortion,1980,420,0.3980891719745223
+abortion,abortion,1981,669,10.310509554140127
+abortion,abortion,1982,621,8.39968152866242
+abortion,abortion,1983,410,0
+abortion,abortion,1984,900,19.506369426751593
+abortion,abortion,1985,620,8.359872611464967
+abortion,abortion,1986,621,8.39968152866242
+abortion,abortion,1987,628,8.678343949044585
+abortion,abortion,1988,671,10.390127388535033
+abortion,abortion,1989,1124,28.423566878980893
+abortion,abortion,1990,1153,29.578025477707005
+abortion,abortion,1991,931,20.74044585987261
+abortion,abortion,1992,1540,44.98407643312102
+abortion,abortion,1993,1045,25.278662420382165
+abortion,abortion,1994,1074,26.43312101910828
+abortion,abortion,1995,1013,24.004777070063692
+abortion,abortion,1996,1316,36.06687898089172
+abortion,abortion,1997,799,15.485668789808917
+abortion,abortion,1998,1109,27.826433121019107
+abortion,abortion,1999,784,14.888535031847134
+abortion,abortion,2000,1491,43.03343949044586
+abortion,abortion,2001,1021,24.323248407643312
+abortion,abortion,2002,774,14.490445859872612
+abortion,abortion,2003,763,14.052547770700638
+abortion,abortion,2004,1142,29.14012738853503
+abortion,abortion,2005,1464,41.95859872611465
+abortion,abortion,2006,1745,53.14490445859873
+abortion,abortion,2007,1280,34.63375796178344
+abortion,abortion,2008,1347,37.30095541401274
+abortion,abortion,2009,1139,29.020700636942674
+abortion,abortion,2010,801,15.565286624203821
+abortion,abortion,2011,710,11.94267515923567
+abortion,abortion,2012,1183,30.772292993630572
+abortion,abortion,2013,757,13.813694267515924
+abortion,abortion,2014,751,13.574840764331212
+abortion,abortion,2015,809,15.88375796178344
+abortion,abortion,2016,914,20.063694267515924
+abortion,abortion,2017,741,13.17675159235669
+abortion,abortion,2018,999,23.447452229299362
+abortion,abortion,2019,1122,28.343949044585987
+abortion,abortion,2020,1207,31.727707006369428
+abortion,abortion,2021,1063,25.995222929936308
+abortion,abortion,2022,2922,100
+abortion,abortion,2023,1851,57.36464968152867
+abortion,abortion,2024,2763,93.67038216560509
+police_violence,police brutality,1972,98,2.830856334041047
+police_violence,police brutality,1973,101,3.043170559094126
+police_violence,police brutality,1974,103,3.1847133757961785
+police_violence,police brutality,1975,96,2.689313517338995
+police_violence,police brutality,1976,68,0.7077140835102618
+police_violence,police brutality,1977,119,4.3170559094125975
+police_violence,police brutality,1978,111,3.750884642604388
+police_violence,police brutality,1979,156,6.935598018400565
+police_violence,police brutality,1980,84,1.840056617126681
+police_violence,police brutality,1981,104,3.255484784147204
+police_violence,police brutality,1982,58,0
+police_violence,police brutality,1983,152,6.652512384996462
+police_violence,police brutality,1984,90,2.264685067232838
+police_violence,police brutality,1985,173,8.138711960368012
+police_violence,police brutality,1986,110,3.680113234253362
+police_violence,police brutality,1987,141,5.874026893135174
+police_violence,police brutality,1988,146,6.227883934890304
+police_violence,police brutality,1989,193,9.554140127388536
+police_violence,police brutality,1990,131,5.166312809624912
+police_violence,police brutality,1991,235,12.526539278131635
+police_violence,police brutality,1992,243,13.092710544939845
+police_violence,police brutality,1993,168,7.784854918612881
+police_violence,police brutality,1994,150,6.510969568294408
+police_violence,police brutality,1995,212,10.898796886058031
+police_violence,police brutality,1996,160,7.218683651804671
+police_violence,police brutality,1997,376,22.505307855626327
+police_violence,police brutality,1998,251,13.658881811748053
+police_violence,police brutality,1999,358,21.231422505307858
+police_violence,police brutality,2000,257,14.08351026185421
+police_violence,police brutality,2001,215,11.11111111111111
+police_violence,police brutality,2002,139,5.7324840764331215
+police_violence,police brutality,2003,134,5.37862703467799
+police_violence,police brutality,2004,125,4.7416843595187546
+police_violence,police brutality,2005,146,6.227883934890304
+police_violence,police brutality,2006,265,14.64968152866242
+police_violence,police brutality,2007,209,10.686482661004954
+police_violence,police brutality,2008,187,9.129511677282377
+police_violence,police brutality,2009,150,6.510969568294408
+police_violence,police brutality,2010,141,5.874026893135174
+police_violence,police brutality,2011,162,7.360226468506724
+police_violence,police brutality,2012,132,5.237084217975937
+police_violence,police brutality,2013,145,6.1571125265392785
+police_violence,police brutality,2014,246,13.305024769992924
+police_violence,police brutality,2015,345,20.311394196744516
+police_violence,police brutality,2016,307,17.62208067940552
+police_violence,police brutality,2017,327,19.037508846426043
+police_violence,police brutality,2018,311,17.905166312809627
+police_violence,police brutality,2019,339,19.886765746638357
+police_violence,police brutality,2020,1471,100
+police_violence,police brutality,2021,615,39.41967445152159
+police_violence,police brutality,2022,281,15.78202406227884
+police_violence,police brutality,2023,268,14.8619957537155
+police_violence,police brutality,2024,211,10.828025477707007
+gender_roles,feminism,1972,35,0
+gender_roles,feminism,1973,49,4.444444444444445
+gender_roles,feminism,1974,93,18.412698412698415
+gender_roles,feminism,1975,107,22.857142857142858
+gender_roles,feminism,1976,80,14.285714285714285
+gender_roles,feminism,1977,99,20.317460317460316
+gender_roles,feminism,1978,112,24.444444444444443
+gender_roles,feminism,1979,102,21.26984126984127
+gender_roles,feminism,1980,50,4.761904761904762
+gender_roles,feminism,1981,134,31.428571428571427
+gender_roles,feminism,1982,101,20.952380952380953
+gender_roles,feminism,1983,103,21.58730158730159
+gender_roles,feminism,1984,126,28.888888888888886
+gender_roles,feminism,1985,95,19.047619047619047
+gender_roles,feminism,1986,153,37.46031746031746
+gender_roles,feminism,1987,124,28.253968253968253
+gender_roles,feminism,1988,135,31.746031746031743
+gender_roles,feminism,1989,125,28.57142857142857
+gender_roles,feminism,1990,152,37.142857142857146
+gender_roles,feminism,1991,144,34.6031746031746
+gender_roles,feminism,1992,223,59.682539682539684
+gender_roles,feminism,1993,166,41.58730158730159
+gender_roles,feminism,1994,187,48.25396825396825
+gender_roles,feminism,1995,147,35.55555555555556
+gender_roles,feminism,1996,134,31.428571428571427
+gender_roles,feminism,1997,163,40.63492063492063
+gender_roles,feminism,1998,161,40
+gender_roles,feminism,1999,154,37.77777777777778
+gender_roles,feminism,2000,170,42.857142857142854
+gender_roles,feminism,2001,163,40.63492063492063
+gender_roles,feminism,2002,147,35.55555555555556
+gender_roles,feminism,2003,106,22.53968253968254
+gender_roles,feminism,2004,131,30.476190476190478
+gender_roles,feminism,2005,171,43.17460317460318
+gender_roles,feminism,2006,249,67.93650793650794
+gender_roles,feminism,2007,209,55.23809523809524
+gender_roles,feminism,2008,216,57.460317460317455
+gender_roles,feminism,2009,147,35.55555555555556
+gender_roles,feminism,2010,161,40
+gender_roles,feminism,2011,139,33.01587301587301
+gender_roles,feminism,2012,168,42.22222222222222
+gender_roles,feminism,2013,184,47.3015873015873
+gender_roles,feminism,2014,223,59.682539682539684
+gender_roles,feminism,2015,228,61.26984126984127
+gender_roles,feminism,2016,298,83.4920634920635
+gender_roles,feminism,2017,344,98.09523809523809
+gender_roles,feminism,2018,350,100
+gender_roles,feminism,2019,301,84.44444444444444
+gender_roles,feminism,2020,254,69.52380952380952
+gender_roles,feminism,2021,276,76.5079365079365
+gender_roles,feminism,2022,237,64.12698412698413
+gender_roles,feminism,2023,278,77.14285714285715
+gender_roles,feminism,2024,227,60.952380952380956
+suicide_permissibility,euthanasia,1972,23,2.564102564102564
+suicide_permissibility,euthanasia,1973,32,7.179487179487179
+suicide_permissibility,euthanasia,1974,25,3.5897435897435894
+suicide_permissibility,euthanasia,1975,64,23.589743589743588
+suicide_permissibility,euthanasia,1976,36,9.230769230769232
+suicide_permissibility,euthanasia,1977,30,6.153846153846154
+suicide_permissibility,euthanasia,1978,20,1.0256410256410255
+suicide_permissibility,euthanasia,1979,27,4.615384615384616
+suicide_permissibility,euthanasia,1980,20,1.0256410256410255
+suicide_permissibility,euthanasia,1981,28,5.128205128205128
+suicide_permissibility,euthanasia,1982,18,0
+suicide_permissibility,euthanasia,1983,29,5.641025641025641
+suicide_permissibility,euthanasia,1984,37,9.7435897435897445
+suicide_permissibility,euthanasia,1985,37,9.7435897435897445
+suicide_permissibility,euthanasia,1986,33,7.6923076923076925
+suicide_permissibility,euthanasia,1987,47,14.871794871794872
+suicide_permissibility,euthanasia,1988,42,12.307692307692308
+suicide_permissibility,euthanasia,1989,22,2.051282051282051
+suicide_permissibility,assisted suicide,1990,48,15.384615384615385
+suicide_permissibility,assisted suicide,1991,69,26.153846153846157
+suicide_permissibility,assisted suicide,1992,34,8.205128205128204
+suicide_permissibility,assisted suicide,1993,127,55.8974358974359
+suicide_permissibility,assisted suicide,1994,122,53.333333333333336
+suicide_permissibility,assisted suicide,1995,99,41.53846153846154
+suicide_permissibility,assisted suicide,1996,195,90.76923076923077
+suicide_permissibility,assisted suicide,1997,213,100
+suicide_permissibility,assisted suicide,1998,139,62.05128205128205
+suicide_permissibility,assisted suicide,1999,96,40
+suicide_permissibility,assisted suicide,2000,85,34.35897435897436
+suicide_permissibility,assisted suicide,2001,111,47.69230769230769
+suicide_permissibility,assisted suicide,2002,114,49.23076923076923
+suicide_permissibility,assisted suicide,2003,106,45.12820512820513
+suicide_permissibility,assisted suicide,2004,88,35.8974358974359
+suicide_permissibility,assisted suicide,2005,177,81.53846153846153
+suicide_permissibility,assisted suicide,2006,190,88.2051282051282
+suicide_permissibility,assisted suicide,2007,129,56.92307692307692
+suicide_permissibility,assisted suicide,2008,156,70.76923076923077
+suicide_permissibility,assisted suicide,2009,95,39.48717948717949
+suicide_permissibility,assisted suicide,2010,64,23.589743589743588
+suicide_permissibility,assisted suicide,2011,89,36.41025641025641
+suicide_permissibility,assisted suicide,2012,70,26.666666666666668
+suicide_permissibility,assisted suicide,2013,77,30.256410256410255
+suicide_permissibility,assisted suicide,2014,84,33.84615384615385
+suicide_permissibility,assisted suicide,2015,94,38.97435897435898
+suicide_permissibility,assisted suicide,2016,80,31.794871794871792
+suicide_permissibility,assisted suicide,2017,78,30.76923076923077
+suicide_permissibility,assisted suicide,2018,83,33.33333333333333
+suicide_permissibility,assisted suicide,2019,88,35.8974358974359
+suicide_permissibility,assisted suicide,2020,93,38.46153846153847
+suicide_permissibility,assisted suicide,2021,79,31.28205128205128
+suicide_permissibility,assisted suicide,2022,80,31.794871794871792
+suicide_permissibility,assisted suicide,2023,54,18.461538461538463
+suicide_permissibility,assisted suicide,2024,82,32.82051282051282
