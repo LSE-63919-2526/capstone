@@ -83,12 +83,6 @@ cd YOUR-REPO-NAME
 
 2. **Run Data Pipelines (Optional):**
 If rebuilding from raw data, execute the scripts in the `R/` directory sequentially:
-```r
-source("R/01_data_cleaning.R")
-source("R/02_analysis.R")
-source("R/03_robustness.R")
-
-```
 
 
 3. **Render the Final Capstone PDF:**
